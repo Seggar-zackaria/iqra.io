@@ -11,7 +11,7 @@
                         <h3 class="page__title m-3">مقالات</h3>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                                <li class="breadcrumb-item"><a href={{url('/')}}>الرئيسية</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">مقالات</li>
                             </ol>
                         </nav>
@@ -32,7 +32,7 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
-                                        <a href="blog-details.html">
+                                        <a href={{url('/in-article')}}>
                                             <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
                                                  alt="">
                                         </a>
@@ -41,7 +41,7 @@
                                         <div class="blog__tag">
                                             <a href="#" class="pink">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">The Challenge Of Global Learning In Public Education</a></h3>
+                                        <h3 class="blog__title"><a href={{url('/in-article')}}>The Challenge Of Global Learning In Public Education</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -72,7 +72,7 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
-                                        <a href="blog-details.html">
+                                        <a href={{url('/in-article')}}>
                                             <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
                                                  class="img-fluid border-0" alt="">
                                         </a>
@@ -81,7 +81,7 @@
                                         <div class="blog__tag">
                                             <a href="#">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">The Challenge Of Global Learning In Public Education</a></h3>
+                                        <h3 class="blog__title"><a href={{url('/in-article')}}>The Challenge Of Global Learning In Public Education</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -113,7 +113,7 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix" >
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
-                                        <a href="blog-details.html">
+                                        <a href="{{url('/in-article')}}">
                                             <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg" alt="">
                                         </a>
                                     </div>
@@ -121,7 +121,7 @@
                                         <div class="blog__tag">
                                             <a href="#" class="pink">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">New Chicago school budget relies on state pension</a></h3>
+                                        <h3 class="blog__title"><a href="{{url('/in-article')}}">New Chicago school budget relies on state pension</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -152,16 +152,16 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
-                                        <a href="blog-details.html">
+                                        <a href={{url('/in-article')}}>
                                             <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
                                                  alt="">
                                         </a>
                                     </div>
                                     <div class="blog__content">
                                         <div class="blog__tag">
-                                            <a href="#" class="pink">مقالات</a>
+                                            <a href="{{url('/article')}}" class="pink">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">The Challenge Of Global Learning In Public Education</a></h3>
+                                        <h3 class="blog__title"><a href={{url('/in-article')}}>The Challenge Of Global Learning In Public Education</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -192,7 +192,7 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
-                                        <a href="blog-details.html">
+                                        <a href="{{url('/in-article')}}">
                                             <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
                                                  alt="">
                                         </a>
@@ -201,7 +201,7 @@
                                         <div class="blog__tag">
                                             <a href="#" class="pink">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">The Challenge Of Global Learning In Public Education</a></h3>
+                                        <h3 class="blog__title"><a href="{{url('/in-article')}}">The Challenge Of Global Learning In Public Education</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -232,7 +232,7 @@
                             <div class="blog__wrapper">
                                 <div class="blog__item white-bg mb-30 transition-3 fix" >
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
-                                        <a href="blog-details.html">
+                                        <a href={{url('/in-article')}}>
                                             <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg" alt="">
                                         </a>
                                     </div>
@@ -240,7 +240,7 @@
                                         <div class="blog__tag">
                                             <a href="#" class="pink">مقالات</a>
                                         </div>
-                                        <h3 class="blog__title"><a href="blog-details.html">New Chicago school budget relies on state pension</a></h3>
+                                        <h3 class="blog__title"><a href={{url('/in-article')}}>New Chicago school budget relies on state pension</a></h3>
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
@@ -273,28 +273,29 @@
                             <div class="basic-pagination wow fadeInUp mt-30" data-wow-delay=".2s">
                                 <ul class="d-flex align-items-center">
                                     <li class="next">
-                                        <a href="blog.html" class="link-btn">
+                                        <a href="{{url('/article')}}" class="link-btn">
                                             <i class="fa-duotone fa-arrow-right me-2"></i>
                                             التالي
                                         </a>
                                     </li>
+
                                     <li>
                                         <a href="#">
                                             <span>1</span>
                                         </a>
                                     </li>
                                     <li class="active">
-                                        <a href="blog.html">
+                                        <a href="{{url('/article')}}">
                                             <span>2</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <a href="{{url('/article')}}">
                                             <span>3</span>
                                         </a>
                                     </li>
                                     <li class="prev">
-                                        <a href="blog.html" class="link-btn link-prev">
+                                        <a href="{{url('/article')}}" class="link-btn link-prev">
                                             السابق
                                             <i class="fa-duotone fa-arrow-left ms-2"></i>
                                         </a>
@@ -314,7 +315,7 @@
                                 <div class="rc__post-wrapper">
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20" style="max-height: 74px; overflow: hidden">
-                                            <a href="blog-details.html" >
+                                            <a href={{url('/in-article')}} >
                                                 <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
                                                      alt=""></a>
                                         </div>
@@ -322,29 +323,29 @@
                                             <div class="rc__meta">
                                                 <span>اكتوبر 15, 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('/in-article')}}">تخرج الطلاب قي المدرسة.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"> <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" alt=""></a>
+                                            <a href={{url('/in-article')}}> <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta" >
                                                 <span>مارس 26, 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('/in-article')}}">تخرج الطلاب قي المدرسة.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"><img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt=""></a>
+                                            <a href="{{url('/in-article')}}"><img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
                                                 <span>اكتوبر 15, 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('/in-article')}}">تخرج الطلاب قي المدرسة.</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -357,11 +358,11 @@
                             <div class="sidebar__widget-content">
                                 <div class="sidebar__category">
                                     <ul>
-                                        <li><a href="blog.html">مقالات</a></li>
-                                        <li><a href="blog.html">رحالات (4)</a></li>
-                                        <li><a href="blog.html">نشاطات (8)</a></li>
-                                        <li><a href="blog.html">مناسابات (5)</a></li>
-                                        <li><a href="blog.html">افتتاحيات (3)</a></li>
+                                        <li><a href="{{url('/article')}}">مقالات</a></li>
+                                        <li><a href="{{url('/article')}}">رحالات (4)</a></li>
+                                        <li><a href="{{url('/article')}}">نشاطات (8)</a></li>
+                                        <li><a href="{{url('/article')}}">مناسابات (5)</a></li>
+                                        <li><a href="{{url('/article')}}">افتتاحيات (3)</a></li>
                                     </ul>
                                 </div>
                             </div>

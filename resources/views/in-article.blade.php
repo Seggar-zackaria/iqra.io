@@ -20,7 +20,7 @@
                         <div class="blog__meta d-flex align-items-center">
                             <div class="blog__date blog__date-2 d-flex align-items-center">
                                 <i class="fa-duotone fa-clock me-2 text-white"></i>
-                                <span>افريل 02, 2022</span>
+                                <span>02 افريل 2022</span>
                             </div>
                         </div>
                     </div>
@@ -31,13 +31,15 @@
     <!-- page title area end -->
 
     <!-- blog area start -->
+
+    <!-- blog area start -->
     <section class="blog__area pt-120 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-xl-8 col-lg-8">
                     <div class="blog__wrapper">
                         <div class="blog__text mb-40">
-                            <p>Me old mucker argy-bargy  I'm telling pear shaped Jeffrey super brilliant, I excuse my French blatant gormless up the duff, cup of char up the kyver tosser cras happy days. The full monty he nicked it he legged it bum bag burke plastered arse over tit it's your round owt to do with me pardon you, on your bike mate hanky panky mush cuppa only a quid crikey Jeffrey skive off, faff about so I said what a load of rubbish blag David knees up cockup cras. Argy-bargy give us a bell wellies gosh skive off old bodge cheesed off A bit of how's your father off his nut bamboozled, bugger say I'm telling morish bleeding boot up the kyver nice one brilliant, ruddy jolly good fanny around chinwag amongst brown bread arse brolly. Horse play it's all gone to pot codswallop easy peasy mush knees up down the pub jolly good nice one tosser it's your round lurgy, I vagabond barmy off his nut only a quid so I said is gosh Charles blow off, pardon me chip shop Richard spiffing skive off bleeding get stuffed mate porkies amongst the full monty.</p>
+                            <p>تعد الرحلات المدرسية طريقة من طرق التعليم التي تعتمد على التشويق والتجربة والبحث والاستكشاف وتمتلك في طياتها نوعاً من أنواع الترفيه، فهي تأخذ الطلاب من أجواء المدرسة الروتينية والمواعيد والانتظام والمذاكرة والواجبات إلى أجواء المرح واللعب والانتعاش. والرحلات المدرسية لا تقتصر على الترفيه فقط في الترفيه هو طابع لها لكن لا يعني أنه ليس هناك أهداف تحقق و دروس نتعلمها من الرحلات المدرسية، الرحلات إما رحلات ترفيهية كالتي تكون إلى البحر أو إلى الحدائق ويكون الغرض منها هو التسلية والمرح، وإما الرحلات التعليمية الثقافية وتكون بغرض الاستكشاف والتعلم بطريقة المشاهدة والنزول للواقع. مثل الرحلات التي تكون إلى المناطق القديمة الأثرية وقصور الملوك قديماً والمكتبات التي تحتوي على المخطوطات والكتب القديمة، وهناك الرحلات الدينية التي تكون لأداء عبادة معينة بشكل جماعي بعد تعلمها بشكل نظري في المدرسة مثل الرحلات التي تكون للمساجد و ودور الأيتام والمسنين</p>
                         </div>
                         <div class="blog__quote grey-bg mb-45 p-relative fix">
                             <img class="quote" src="assets/img/blog/quote-1.png" alt="">
@@ -49,31 +51,27 @@
                         <div class="blog__text mb-30">
                             <p>Horse play it's all gone to pot codswallop easy peasy mush knees up down the pub jolly good nice one tosser it's your round lurgy, I vagabond barmy off his nut only a quid so I said is gosh Charles blow off, pardon me chip shop Richard spiffing skive off bleeding get stuffed mate porkies amongst the full monty. Daft burke you</p>
                         </div>
-                        <div class="blog__link mb-35">
-                            <p>The little rotter bum bag a blinding shot gosh spifing butty eatonwha load of rubbish bamboozled. <a href="#"> https://educal.com/courses</a> </p>
-                        </div>
                         <div class="blog__img w-img mb-45" >
                             <img src="assets/img/blog/big/blog-big-1.jpg" alt="">
                         </div>
                         <div class="blog__text mb-40">
-                            <h3>Build a beautiful website with Quillow</h3>
-                            <p>Some dodgy chav car boot blower starkers bonnet tickety-boo no biggie cheesed off, Oxford bloke fantastic the wireless bevvy cobblers chancer give us a bell, bleeder jolly good hanky panky do one gormless matie boy. Pear shaped my good sir I cobblers at public school quaint tickety-boo crikey bits and bobs, wellies bugger all mate golly gosh brolly matie boy fanny around chimney pot cracking goal my lady, bodge so I said spiffing posh the full monty don't get shirty with me no biggie.</p>
+                            <p>موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار سوف تشاركونا به اليوم، حيث أن المدرسة هي مرجع الطالب في مسيرته العلمية وبيته التعليمي، ولكن دور المدرسة والمعلمين لا يقتصر على ذلك فلها دور في تنمية مهارات الطالب وتقديم الدعم المناسب له في كل مراحل التعليم المختلفة، ولذلك كان مما تسعى إليه المدرسة هو إقامة الرحلات المدرسية على فترات متفاوتة لأهميتها في تربية الطالب وتعليمه بطريقة شيقة وممتعة وغرس المفاهيم التي يحتاجها في مسيرته العلمية والعملية، وكذلك توفير وسيلة الترفيه المناسبة والتي تزرع فيه حب التعلم وكيفية الجمع بين المتعة والعلم وزيادة روح الألفة والمودة بينه وبين معلمية وزملائه لذا كانت الرحلات المدرسية من الأمور التي لا غنى عنها، موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار بالعناصر والمقدمة والحاتمة للصف الرابع والخامس والسادس الابتدائي، موضوع عن الرحلة المدرسية بالعناصر والافكار للصف الاول و الثاني و الثالث الاعدادي و الثانوي ولجميع الصفوف التعليمية</p>
 
-                            <p>Brolly grub blimey victoria sponge blag nancy boy don't get shirty with me skive off bobby burke in my flat bog-standard, easy peasy golly gosh up the duff show off show off pick your nose and blow off gosh a brilliant that what a load of rubbish.</p>
+                            <p>موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار سوف تشاركونا به اليوم، حيث أن المدرسة هي مرجع الطالب في مسيرته العلمية وبيته التعليمي، ولكن دور المدرسة والمعلمين لا يقتصر على ذلك فلها دور في تنمية مهارات الطالب وتقديم الدعم المناسب له في كل مراحل التعليم المختلفة، ولذلك كان مما تسعى إليه المدرسة هو إقامة الرحلات المدرسية على فترات متفاوتة لأهميتها في تربية الطالب وتعليمه بطريقة شيقة وممتعة وغرس المفاهيم التي يحتاجها في مسيرته العلمية والعملية، وكذلك توفير وسيلة الترفيه المناسبة والتي تزرع فيه حب التعلم وكيفية الجمع بين المتعة والعلم وزيادة روح الألفة والمودة بينه وبين معلمية وزملائه لذا كانت الرحلات المدرسية من الأمور التي لا غنى عنها، موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار بالعناصر والمقدمة والحاتمة للصف الرابع والخامس والسادس الابتدائي، موضوع عن الرحلة المدرسية بالعناصر والافكار للصف الاول و الثاني و الثالث الاعدادي و الثانوي ولجميع الصفوف التعليمية</p>
                         </div>
                         <div class="blog__line"></div>
                         <div class="blog__meta-3 d-sm-flex justify-content-between align-items-center mb-80">
                             <div class="blog__tag-2">
-                                <a href="#">Art & Design</a>
-                                <a href="#">Education</a>
-                                <a href="#">App</a>
+                                <a href="#">رحالات</a>
+                                <a href="#">نشاطات</a>
+                                <a href="#">مقال</a>
                             </div>
                             <div class="blog__social d-flex align-items-center">
-                                <h4>Share:</h4>
+                                <h4>شارك</h4>
                                 <ul>
-                                    <li><a href="#" class="fb" ><i class="social_facebook"></i></a></li>
-                                    <li><a href="#" class="tw" ><i class="social_twitter"></i></a></li>
-                                    <li><a href="#" class="pin" ><i class="social_pinterest"></i></a></li>
+                                    <li><a href="https://www.facebook.com/" class="fb" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/" class="tw" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://www.youtube.com/" class="pin" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -263,43 +261,41 @@
                     <div class="blog__sidebar pl-70">
                         <div class="sidebar__widget mb-55">
                             <div class="sidebar__widget-head mb-35">
-                                <h3 class="sidebar__widget-title">اخر المقالات</h3>
+                                <h3 class="sidebar__widget-title">مقالات ذات صلة</h3>
                             </div>
                             <div class="sidebar__widget-content">
                                 <div class="rc__post-wrapper">
                                     <div class="rc__post d-flex align-items-center">
-                                        <div class="rc__thumb mr-20" style="max-height: 74px; overflow: hidden">
-                                            <a href="blog-details.html" >
-                                                <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
-                                                     alt=""></a>
+                                        <div class="rc__thumb mr-20">
+                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-1.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
-                                                <span>اكتوبر 15, 2021</span>
+                                                <span>15 اكتوبر 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="blog-details.html">The Importance  Intrinsic Motivation.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"> <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" alt=""></a>
+                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-2.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
-                                            <div class="rc__meta" >
-                                                <span>مارس 26, 2021</span>
+                                            <div class="rc__meta">
+                                                <span>26 مارس 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="blog-details.html">A Better Alternative To Grading Student.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"><img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt=""></a>
+                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-3.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
-                                                <span>اكتوبر 15, 2021</span>
+                                                <span>15 اكتوبر 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">تخرج الطلاب قي المدرسة.</a></h6>
+                                            <h6 class="rc__title"><a href="blog-details.html">Strategic Social Media & Evolution of Visual</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -312,29 +308,28 @@
                             <div class="sidebar__widget-content">
                                 <div class="sidebar__category">
                                     <ul>
-                                        <li><a href="blog.html">مقالات</a></li>
-                                        <li><a href="blog.html">رحالات (4)</a></li>
-                                        <li><a href="blog.html">نشاطات (8)</a></li>
-                                        <li><a href="blog.html">مناسابات (5)</a></li>
-                                        <li><a href="blog.html">افتتاحيات (3)</a></li>
+                                        <li><a href="blog.html">Category</a></li>
+                                        <li><a href="blog.html">Video & Tips  (4)</a></li>
+                                        <li><a href="blog.html">Education  (8)</a></li>
+                                        <li><a href="blog.html">Business  (5)</a></li>
+                                        <li><a href="blog.html">UX Design  (3)</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
                         <div class="sidebar__widget mb-55">
                             <div class="sidebar__widget-head mb-35">
                                 <h3 class="sidebar__widget-title">وسوم</h3>
                             </div>
                             <div class="sidebar__widget-content">
                                 <div class="sidebar__tag">
-                                    <a href="#">مقالات</a>
-                                    <a href="#">رحالات</a>
-                                    <a href="#">نشاطات</a>
-                                    <a href="#">مناسابات</a>
-                                    <a href="#">افتتاحيات</a>
-                                    <a href="#">تعليم</a>
-                                    <a href="#">تخرج</a>
+                                    <a href="{{url('/in-article')}}">مقالات</a>
+                                    <a href="{{url('/in-article')}}">رحالات</a>
+                                    <a href="{{url('/in-article')}}">نشاطات</a>
+                                    <a href="{{url('/in-article')}}">مناسابات</a>
+                                    <a href="{{url('/in-article')}}">افتتاحيات</a>
+                                    <a href="{{url('/in-article')}}">تعليم</a>
+                                    <a href="{{url('/in-article')}}">تخرج</a>
                                 </div>
                             </div>
                         </div>
@@ -347,8 +342,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- blog area end -->
+
+    <!-- page title area end -->
 
 @endsection
 

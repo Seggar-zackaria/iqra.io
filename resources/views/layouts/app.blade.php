@@ -66,7 +66,7 @@
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                     <div class="header__left d-flex align-items-center">
                         <div class="logo">
-                            <a href="{{url('/about')}}">
+                            <a href="{{url('/')}}">
                                 <img src="{{asset('assets/img/logo.svg')}}" alt="logo" class="img-fluid logo-black" style="width: 40px">
                                 <img src="{{asset('assets/img/webicon.svg')}}" alt="logo" class="img-fluid logo-white" style="width: 40px">
                             </a>
@@ -113,10 +113,10 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li>
-                                        <a href="index.html">الرئيسية</a>
+                                        <a href="{{url('/')}}">الرئيسية</a>
                                     </li>
                                     <li>
-                                        <a href="blog.html">مقالات</a>
+                                        <a href="{{url('/article')}}">مقالات</a>
                                     </li>
                                     <li>
                                         <a href="{{url('/about-us')}}">هيكلة المدرسة</a>
@@ -130,11 +130,11 @@
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="course-grid.html">الصفحات</a>
-                                        <ul class="submenu">
+                                        <a href="{{url('show-case')}}">معرض الصور</a>
+                                      {{--  <ul class="submenu">
                                             <li><a href="about.html">About</a></li>
 
-                                        </ul>
+                                        </ul>--}}
                                     </li>
                                     <li><a href="{{url('/contact')}}">تواصلوا معنا</a></li>
                                 </ul>

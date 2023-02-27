@@ -188,7 +188,7 @@
                         <div class="course__content">
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
-                                    <span><i class="fa-light fa-timer me-2"></i> منذ أسبوع</span>
+                                    <span><i class="fa-duotone fa-timer me-2"></i> منذ أسبوع</span>
                                 </div>
                             </div>
                             <h3 class="course__title"><a href="course-details.html">رحالات مدرسية ممتع مع الأستاذة بن فلان</a></h3>
@@ -200,7 +200,7 @@
                             <div class="course__btn">
                                 <a href="course-details.html" class="link-btn">
                                     تصفح المزيد
-                                    <i class="fa-light fa-arrow-left ms-2"></i>
+                                    <i class="fa-duotone fa-arrow-left ms-2"></i>
                                 </a>
                             </div>
                         </div>

@@ -7256,6 +7256,7 @@ p.checkout-coupon input[type=text]:focus {
   color: #ffffff;
   line-height: 62px;
   margin-bottom: 0;
+  padding: 0 0 10px 0;
 }
 @media (max-width: 575px) {
   .page__title {

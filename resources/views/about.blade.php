@@ -10,7 +10,7 @@
                         <h3 class="page__title">هيكلة المدرسة</h3>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('/welcome')}}">الرئيسية</a></li>
+                                <li class="breadcrumb-item"><a href="{{url('/')}}">الرئيسية</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">هيكلة المدرسة</li>
                             </ol>
                         </nav>
@@ -31,10 +31,10 @@
                             <h5><span class="text-primary">إقرأ</span> جنيفا سويسرا</h5>
                         </div>
                         <div class="about__thumb ml-100  ">
-                            <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
+                            <img src="public/assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
                         </div>
                         <div class="about__banner mt--110">
-                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt="">
+                            <img src="public/assets/img/school/photo_2023-02-24_19-44-14.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,9 +46,9 @@
                         </div>
                         <div class="about__list mb-35">
                             <ul>
-                                <li class="d-flex align-items-center"> <i class="fa-light fa-check text-success me-3"></i> اتقان النطق الصحيح</li>
-                                <li class="d-flex align-items-center"> <i class="fa-light fa-check text-success me-3"></i> تعلم مع اساتذة مختصين</li>
-                                <li class="d-flex align-items-center"> <i class="fa-light fa-check text-success me-3"></i> تعلم باحدث الطرق</li>
+                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> اتقان النطق الصحيح</li>
+                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> تعلم مع اساتذة مختصين</li>
+                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> تعلم باحدث الطرق</li>
                             </ul>
                         </div>
 
@@ -172,11 +172,11 @@
                 </div>
                 <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
                     <div class="why__thumb">
-                        <img src="assets/img/why/why.png" alt="">
-                        <img class="why-green" src="assets/img/why/why-shape-green.png" alt="">
-                        <img class="why-pink" src="assets/img/why/why-shape-pink.png" alt="">
-                        <img class="why-dot" src="assets/img/why/why-shape-dot.png" alt="">
-                        <img class="why-line" src="assets/img/why/why-shape-line.png" alt="">
+                        <img src="public/assets/img/school/photo_2023-02-24_19-44-10.jpg" alt="">
+                        <img class="why-green" src="public/assets/img/why/why-shape-green.png" alt="">
+                        <img class="why-pink" src="public/assets/img/why/why-shape-pink.png" alt="">
+                        <img class="why-dot" src="public/assets/img/why/why-shape-dot.png" alt="">
+                        <img class="why-line" src="public/assets/img/why/why-shape-line.png" alt="">
                     </div>
                 </div>
             </div>
