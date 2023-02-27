@@ -24,4 +24,5 @@ Route::view('sign-up','sign-up');
 Route::view('article','article');
 Route::view('in-article','in-article');
 Route::view('show-case','show-case');
+Route::view('gallery','gallery');
 Route::view('404','404');
