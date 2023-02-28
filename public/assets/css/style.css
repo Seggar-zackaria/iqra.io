@@ -2405,9 +2405,9 @@ p {
 .category__item:hover {
   background: #2b4eff;
   border-color: #2b4eff;
-  -webkit-box-shadow: 0px 20px 30px 0px rgba(4, 23, 118, 0.3);
-  -moz-box-shadow: 0px 20px 30px 0px rgba(4, 23, 118, 0.3);
-  box-shadow: 0px 20px 30px 0px rgba(4, 23, 118, 0.3);
+  -webkit-box-shadow: 0 20px 30px 0 rgba(4, 23, 118, 0.3);
+  -moz-box-shadow: 0 20px 30px 0 rgba(4, 23, 118, 0.3);
+  box-shadow: 0 20px 30px 0 rgba(4, 23, 118, 0.3);
 }
 .category__item:hover .category__title {
   color: #ffffff;
@@ -2418,6 +2418,7 @@ p {
 .category__item:hover .category__content p {
   color: #ffffff;
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .category__icon {
     margin-right: 15px;
@@ -2450,6 +2451,14 @@ p {
 .category__content p {
   font-weight: 500;
   margin-bottom: 0;
+
+}
+
+.category__content1 p {
+  font-weight: 500;
+  margin-bottom: 0;
+  transition: ease-in-out 4s 1s;
+
 }
 
 /*----------------------------------------*/
@@ -6145,9 +6154,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .testimonial__video-content {
   background: #ffffff;
-  padding: 30px 40px;
-  padding-right: 50px;
-  padding-bottom: 60px;
+  padding: 0 50px 50px;
 }
 .testimonial__video-text h4 {
   font-size: 26px;
@@ -7505,8 +7512,28 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*----------------------------------------*/
+/*  22. truncate-text CSS START
+/*----------------------------------------*/
+.cut-text {
+    width: 100%;
+    height: auto;
+    text-overflow: ellipsis;
+
+}
+.cut-text:hover {
+   content: "";
+   overflow: visible;
+   height: auto;
+   white-space: pre-wrap;
+   color: #c5d7f2;
+
+
+}
+
+/*----------------------------------------*/
 /*  22. CONTACT CSS START
 /*----------------------------------------*/
+
 .contact__form-input input, .contact__form-input textarea {
   width: 100%;
   height: 56px;
