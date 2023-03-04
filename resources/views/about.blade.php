@@ -31,24 +31,24 @@
                             <h5><span class="text-primary">إقرأ</span> جنيفا سويسرا</h5>
                         </div>
                         <div class="about__thumb ml-100  ">
-                            <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
+                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}" alt="">
                         </div>
                         <div class="about__banner mt--110">
-                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt="">
+                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6">
                     <div class="about__content pl-70 pr-60 pt-25">
                         <div class="section__title-wrapper mb-25">
-                            <h2 class="section__title">Achieve your <br><span class="yellow-bg-big">Goals <img src="assets/img/shape/yellow-bg-2.png" alt=""></span>  with IQRA </h2>
-                            <p>Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</p>
+                            <h2 class="section__title">نمكن قي اللغة <br><span class="yellow-bg-big">العربية<img src="{{asset('assets/img/shape/yellow-bg-2.png')}}" alt=""></span>  في مدرسة اقرا </h2>
+                            <p>مدرسة جنيف اقرا العربية تحترف في تعليم اللغة العربية مع تخرج شهادة  </p>
                         </div>
                         <div class="about__list mb-35">
                             <ul>
-                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> اتقان النطق الصحيح</li>
-                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> تعلم مع اساتذة مختصين</li>
-                                <li class="d-flex align-items-center"> <i class="fa-duotone fa-check text-success me-3"></i> تعلم باحدث الطرق</li>
+                                <li class="d-flex align-items-center"><i class="fa-duotone fa-check text-success me-3"></i> اتقان النطق الصحيح</li>
+                                <li class="d-flex align-items-center"><i class="fa-duotone fa-check text-success me-3"></i> تعلم مع اساتذة مختصين</li>
+                                <li class="d-flex align-items-center"><i class="fa-duotone fa-check text-success me-3"></i> تعلم باحدث الطرق</li>
                             </ul>
                         </div>
 
@@ -104,22 +104,22 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testimonial__nav-thumb">
-                                        <img src="assets/img/testimonial/home-3/testi-1.jpg" alt="">
+                                        <img src="{{asset('assets/img/testimonial/home-3/testi-1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__nav-thumb">
-                                        <img src="assets/img/testimonial/home-3/testi-2.jpg" alt="">
+                                        <img src="{{asset('assets/img/testimonial/home-3/testi-2.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__nav-thumb">
-                                        <img src="assets/img/testimonial/home-3/testi-3.jpg" alt="">
+                                        <img src="{{asset('assets/img/testimonial/home-3/testi-3.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__nav-thumb">
-                                        <img src="assets/img/testimonial/home-3/testi-2.jpg" alt="">
+                                        <img src="{{asset('assets/img/testimonial/home-3/testi-2.jpg')}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -128,12 +128,11 @@
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-10">
                     <div class="testimonial__video ml-70 fix">
-                        <div class="testimonial__thumb-3 bg-white" >
-                            <video autoplay muted loop
+                        <div class="testimonial__thumb-3 bg-white ratio-16x9" >
+                            <video controls muted loop height="320"
                                    class="img-fluid"
-                                  style="max-height: 320px;"
                                    src="assets/video/testimonial-video.mp4"
-                                   title="YouTube video player"></video>
+                                   title="iqra student "></video>
                         </div>
                         <div class="testimonial__video-content d-sm-flex">
                             <div class="category__icon mr-30">
@@ -165,18 +164,18 @@
                     <div class="why__content pr-50 mt-40">
                         <div class="section__title-wrapper mb-30 mx-auto">
                             <span class="section__sub-title">لماذا مدرسة إقرا</span>
-                            <h2 class="section__title">للأفضل <span class="yellow-bg yellow-bg-big">لنقرأ<img src="assets/img/shape/yellow-bg.png" alt=""></span> و نرتقي</h2>
+                            <h2 class="section__title">للأفضل <span class="yellow-bg yellow-bg-big">لنقرأ<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span> و نرتقي</h2>
                             <p>من اجل دعم أبناء الجالية دينيا وتربويا وعقليا وخُلقيا ولغويا ومهارايا؛ وغيرهم من الجاليات غير المسلمة فيما يتعلق باللغة العربية من خلال فريق مؤهل إداريا وتربويا ومعرفيا وفق المعايير المعمول بها في التعليم، في بيئة تتسم بالتعاون والحيوية والتفاعل.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
                     <div class="why__thumb">
-                        <img src="assets/img/school/photo_2023-02-24_19-44-10.jpg" class="img-fluid" alt="">
-                        <img class="why-green" src="assets/img/why/why-shape-green.png" alt="">
-                        <img class="why-pink" src="assets/img/why/why-shape-pink.png" alt="">
-                        <img class="why-dot" src="assets/img/why/why-shape-dot.png" alt="">
-                        <img class="why-line" src="assets/img/why/why-shape-line.png" alt="">
+                        <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" class="img-fluid" alt="">
+                        <img class="why-green" src="{{asset('assets/img/why/why-shape-green.png')}}" alt="">
+                        <img class="why-pink" src="{{asset('assets/img/why/why-shape-green.png')}}" alt="">
+                        <img class="why-dot" src="{{asset('assets/img/why/why-shape-dot.png')}}" alt="">
+                        <img class="why-line" src="{{asset('assets/img/why/why-shape-line.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -190,13 +189,13 @@
             <div class="row">
                 <div class="col-xxl-6 offset-xl-3 col-xl-6 offset-xl-3">
                     <div class="section__title-wrapper text-center mb-60">
-                        <h2 class="section__title">نحن <span class="yellow-bg yellow-bg-big"> نفتخر<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
-                        <p>You don't have to struggle alone, you've got our assistance and help.</p>
+                        <h2 class="section__title">نحن <span class="yellow-bg yellow-bg-big"> نفتخر<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span></h2>
+                        <p>يما نقدمه للطبلب من اداء و انفعال</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-6 col-md-6 offset-md-0 col-sm-5 offset-sm-1">
+                <div class="col-5 offset-1">
                     <div class="counter__item mb-30">
                         <div class="counter__icon user mb-15 d-flex">
                             <svg viewBox="0 0 490.7 490.7" class="mx-auto">
@@ -214,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-5 offset-xxl-1 col-xl-5 col-lg-6 col-md-6 col-sm-5">
+                <div class="col-5 offset-1">
                     <div class="counter__item mb-30">
                         <div class="counter__icon globe mb-15 d-flex">
                             <svg viewBox="0 0 512 512" class="mx-auto">

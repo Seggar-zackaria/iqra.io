@@ -87,74 +87,96 @@
                         </div>
                         <div class="blog__recent mb-65">
                             <div class="section__title-wrapper mb-40">
-                                <h2 class="section__title">Related <span class="yellow-bg-sm">Post <img src="assets/img/shape/yellow-bg-4.png" alt="">  </span></h2>
-                                <p>You don't have to struggle alone, you've got our assistance and help.</p>
+                                <h2 class="section__title">مقالات ذات <span class="yellow-bg-sm">صلة <img src="assets/img/shape/yellow-bg-4.png" alt="">  </span></h2>
                             </div>
                             <div class="row">
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                    <div class="blog__item white-bg mb-30 transition-3 fix">
-                                        <div class="blog__thumb w-img fix">
-                                            <a href="blog-details.html">
-                                                <img src="assets/img/blog/blog-1.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="blog__content">
-                                            <div class="blog__tag">
-                                                <a href="#">Art & Design</a>
+                                    <div class="blog__wrapper">
+                                        <div class="blog__item white-bg mb-30 transition-3 fix">
+                                            <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
+                                                <a href={{url('/in-article')}}>
+                                                    <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                                         alt="">
+                                                </a>
                                             </div>
-                                            <h3 class="blog__title"><a href="blog-details.html">The Challenge Of Global Learning In Public Education</a></h3>
-
-                                            <div class="blog__meta d-flex align-items-center justify-content-between">
-                                                <div class="blog__author d-flex align-items-center">
-                                                    <div class="blog__author-thumb mr-10">
-                                                        <img src="assets/img/blog/author/author-1.jpg" alt="">
-                                                    </div>
-                                                    <div class="blog__author-info">
-                                                        <h5>Jim Séchen</h5>
-                                                    </div>
+                                            <div class="blog__content">
+                                                <div class="blog__tag">
+                                                    <a href="{{url('/article')}}" class="pink">مقالات</a>
                                                 </div>
-                                                <div class="blog__date d-flex align-items-center">
-                                                    <i class="fal fa-clock"></i>
-                                                    <span>April 02, 2022</span>
+                                                <h3 class="blog__title"><a href={{url('/in-article')}}>The Challenge Of Global Learning In Public Education</a></h3>
+
+                                                <div class="blog__meta d-flex align-items-center justify-content-between">
+                                                    <div class="blog__date d-flex align-items-center">
+                                                        <i class="fa-duotone fa-clock me-2"></i>
+                                                        <span>افريل 02, 2022</span>
+                                                    </div>
+                                                    <div class="blog__author d-flex align-items-center">
+                                                <span>
+                                                      <button aria-controls="collapseExample3" aria-expanded="false" class="bg-transparent border-0"
+                                                              data-bs-target="#collapseExample3" data-bs-toggle="collapse" type="button">
+                                                            <i class="fa-duotone fa-share-from-square"></i>
+                                                      </button>
+                                                 </span>
+                                                        <div class="collapse" id="collapseExample3">
+                                                            <div class="card card-body">
+                                                                <a href=""><i class="fa-brands fa-facebook-f text-primary"></i></a>
+                                                                <a href=""><i class="fa-brands fa-twitter" style="color: #0fa0dd"></i></a>
+                                                                <a href=""><i class="fa-brands fa-instagram" style="color: #d63384" ></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                    <div class="blog__item white-bg mb-30 transition-3 fix">
-                                        <div class="blog__thumb w-img fix">
-                                            <a href="blog-details.html">
-                                                <img src="assets/img/blog/blog-2.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="blog__content">
-                                            <div class="blog__tag">
-                                                <a href="#" class="purple">Marketing</a>
+                                    <div class="blog__wrapper">
+                                        <div class="blog__item white-bg mb-30 transition-3 fix">
+                                            <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
+                                                <a href={{url('/in-article')}}>
+                                                    <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                                         alt="">
+                                                </a>
                                             </div>
-                                            <h3 class="blog__title"><a href="blog-details.html">Exactly How Technology Can Make Reading Better</a></h3>
-
-                                            <div class="blog__meta d-flex align-items-center justify-content-between">
-                                                <div class="blog__author d-flex align-items-center">
-                                                    <div class="blog__author-thumb mr-10">
-                                                        <img src="assets/img/blog/author/author-2.jpg" alt="">
-                                                    </div>
-                                                    <div class="blog__author-info">
-                                                        <h5>Barry Tone</h5>
-                                                    </div>
+                                            <div class="blog__content">
+                                                <div class="blog__tag">
+                                                    <a href="{{url('/article')}}" class="pink">مقالات</a>
                                                 </div>
-                                                <div class="blog__date d-flex align-items-center">
-                                                    <i class="fal fa-clock"></i>
-                                                    <span>July 02, 2022</span>
+                                                <h3 class="blog__title"><a href={{url('/in-article')}}>The Challenge Of Global Learning In Public Education</a></h3>
+
+                                                <div class="blog__meta d-flex align-items-center justify-content-between">
+                                                    <div class="blog__date d-flex align-items-center">
+                                                        <i class="fa-duotone fa-clock me-2"></i>
+                                                        <span>افريل 02, 2022</span>
+                                                    </div>
+                                                    <div class="blog__author d-flex align-items-center">
+                                                <span>
+                                                      <button aria-controls="collapseExample3" aria-expanded="false" class="bg-transparent border-0"
+                                                              data-bs-target="#collapseExample3" data-bs-toggle="collapse" type="button">
+                                                            <i class="fa-duotone fa-share-from-square"></i>
+                                                      </button>
+                                                 </span>
+                                                        <div class="collapse" id="collapseExample3">
+                                                            <div class="card card-body">
+                                                                <a href=""><i class="fa-brands fa-facebook-f text-primary"></i></a>
+                                                                <a href=""><i class="fa-brands fa-twitter" style="color: #0fa0dd"></i></a>
+                                                                <a href=""><i class="fa-brands fa-instagram" style="color: #d63384" ></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="latest-comments mb-95">
-                            <h3>3 Comments</h3>
+                            <h3>3 تعليقات</h3>
                             <ul>
                                 <li>
                                     <div class="comments-box grey-bg">
@@ -163,14 +185,14 @@
                                                 <img src="assets/img/blog/comments/comment-1.jpg" alt="">
                                             </div>
                                             <div class="avatar-name">
-                                                <h5>Eleanor Fant</h5>
-                                                <span class="post-meta"> July 14, 2022</span>
+                                                <h5>سمية بوعزة</h5>
+                                                <span class="post-meta">14 جويلية 2022</span>
                                             </div>
                                         </div>
                                         <div class="comments-text ml-65">
                                             <p>So I said lurgy dropped a clanger Jeffrey bugger cuppa gosh David blatant have it, standard A bit of how's your father my lady absolutely.</p>
                                             <div class="comments-replay">
-                                                <a href="#">Reply</a>
+                                                <a href="#">الرد</a>
                                             </div>
                                         </div>
                                     </div>
@@ -182,14 +204,14 @@
                                                 <img src="assets/img/blog/comments/comment-1.jpg" alt="">
                                             </div>
                                             <div class="avatar-name">
-                                                <h5>Dominic</h5>
-                                                <span class="post-meta">April 16, 2022 </span>
+                                                <h5>اسامة قاسي</h5>
+                                                <span class="post-meta">16 افريل 2022 </span>
                                             </div>
                                         </div>
                                         <div class="comments-text ml-65">
                                             <p>David blatant have it, standard A bit of how's your father my lady absolutely.</p>
                                             <div class="comments-replay">
-                                                <a href="#">Reply</a>
+                                                <a href="#">الرد</a>
                                             </div>
                                         </div>
                                     </div>
@@ -201,14 +223,14 @@
                                                         <img src="assets/img/blog/comments/comment-3.jpg" alt="">
                                                     </div>
                                                     <div class="avatar-name">
-                                                        <h5>Von Rails</h5>
-                                                        <span class="post-meta">April 18, 2022 </span>
+                                                        <h5>ابو انس</h5>
+                                                        <span class="post-meta">18 افريل  2022 </span>
                                                     </div>
                                                 </div>
                                                 <div class="comments-text ml-65">
                                                     <p>He nicked it get stuffed mate spend a penny plastered.!</p>
                                                     <div class="comments-replay">
-                                                        <a href="#">Reply</a>
+                                                        <a href="#">الرد</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -218,38 +240,35 @@
                             </ul>
                         </div>
                         <div class="blog__comment">
-                            <h3>Write a Review</h3>
+                            <h3>اترك تعليق</h3>
                             <form action="#">
                                 <div class="row">
                                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                                         <div class="blog__comment-input">
-                                            <input type="text" placeholder="Your Name">
+                                            <input type="text" placeholder="الاسم الكامل">
                                         </div>
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                                         <div class="blog__comment-input">
-                                            <input type="email" placeholder="Your Email">
+                                            <input type="email" placeholder="بريد الالكتروني">
                                         </div>
                                     </div>
                                     <div class="col-xxl-12">
                                         <div class="blog__comment-input">
-                                            <input type="text" placeholder="Website">
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-12">
-                                        <div class="blog__comment-input">
-                                            <textarea placeholder="Enter your comment ..."></textarea>
+
+                                                <textarea placeholder="اترك تعليقك ..."></textarea>
+
                                         </div>
                                     </div>
                                     <div class="col-xxl-12">
                                         <div class="blog__comment-agree d-flex align-items-center mb-20">
                                             <input class="e-check-input" type="checkbox" id="e-agree">
-                                            <label class="e-check-label" for="e-agree">Save my name, email, and website in this browser for the next time I comment.</label>
+                                            <label class="e-check-label" for="e-agree">حفظ الاسم على الموقع لتعليق بسهولة مرة المقدمة</label>
                                         </div>
                                     </div>
                                     <div class="col-xxl-12">
                                         <div class="blog__comment-btn">
-                                            <button type="submit" class="e-btn">Post Comment</button>
+                                            <button type="submit" class="e-btn">تنفيذ</button>
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +286,7 @@
                                 <div class="rc__post-wrapper">
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-1.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-1.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
@@ -278,7 +297,7 @@
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-2.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-2.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
@@ -289,7 +308,7 @@
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="blog-details.html"><img src="assets/img/blog/sm/blog-sm-3.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-3.jpg" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
@@ -333,7 +352,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sidebar__widget mb-55">
+                        <div class="sidebar__widget mb-55 d-none d-lg-block">
                             <div class="sidebar__banner w-img">
                                 <img src="assets/img/svg/Education-bro.svg" alt="">
                             </div>

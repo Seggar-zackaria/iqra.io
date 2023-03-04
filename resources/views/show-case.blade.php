@@ -75,20 +75,20 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="course__item white-bg mb-30 fix">
                                             <div class="course__thumb w-img p-relative fix">
-                                                <a href="course-details.html">
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-10.jpg"  alt="">
+                                                <a href="{{url('gallery')}}">
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}"  alt="">
                                                 </a>
                                                 <div class="course__tag">
-                                                    <a href="#">رحالات</a>
+                                                    <a href="{{url('gallery')}}">رحالات</a>
                                                 </div>
                                             </div>
                                             <div class="course__content">
 
-                                                <h3 class="course__title"><a href="course-details.html">رحالات الصيفية للمدرسة </a></h3>
+                                                <h3 class="course__title"><a href="{{url('gallery')}}">رحالات الصيفية للمدرسة </a></h3>
                                             </div>
                                             <div class="course__more d-flex justify-content-between align-items-center">
                                                 <div class="course__btn">
-                                                    <a href="course-details.html" class="link-btn ">
+                                                    <a href="{{url('gallery')}}" class="link-btn ">
                                                         <i class="fa-duotone fa-eye "></i>
                                                         تصفح
                                                     </a>
@@ -99,19 +99,19 @@
                                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="course__item white-bg mb-30 fix">
                                             <div class="course__thumb w-img p-relative fix" >
-                                                <a href="course-details.html">
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt="">
+                                                <a href="{{url('gallery')}}">
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" alt="">
                                                 </a>
                                                 <div class="course__tag">
-                                                    <a href="#" class="sky-blue">نشاطات</a>
+                                                    <a href="{{url('gallery')}}" class="sky-blue">نشاطات</a>
                                                 </div>
                                             </div>
                                             <div class="course__content">
-                                                <h3 class="course__title"><a href="course-details.html">ممارسات و نشاطات التى تمارس داخل المدرسة</a></h3>
+                                                <h3 class="course__title"><a href="{{url('gallery')}}">ممارسات و نشاطات التى تمارس داخل المدرسة</a></h3>
                                             </div>
                                             <div class="course__more d-flex justify-content-between align-items-center">
                                                 <div class="course__btn">
-                                                    <a href="course-details.html" class="link-btn">
+                                                    <a href="{{url('gallery')}}" class="link-btn">
                                                         <i class="fa-duotone fa-eye"></i>
                                                         تصفح
                                                     </a>
@@ -122,19 +122,19 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="course__item white-bg mb-30 fix">
                                             <div class="course__thumb w-img p-relative fix">
-                                                <a href="course-details.html">
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-21.jpg" alt="">
+                                                <a href="{{url('gallery')}}">
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-21.jpg')}}" alt="">
                                                 </a>
                                                 <div class="course__tag">
-                                                    <a href="#" class="blue-2">اختتام</a>
+                                                    <a href="{{url('gallery')}}" class="blue-2">اختتام</a>
                                                 </div>
                                             </div>
                                             <div class="course__content">
-                                                <h3 class="course__title"><a href="course-details.html"> حفل اختتام نهاية السنة</a></h3>
+                                                <h3 class="course__title"><a href="{{url('gallery')}}"> حفل اختتام نهاية السنة</a></h3>
                                             </div>
                                             <div class="course__more d-flex justify-content-between align-items-center">
                                                 <div class="course__btn">
-                                                    <a href="course-details.html" class="link-btn">
+                                                    <a href="{{url('gallery')}}" class="link-btn">
                                                         <i class="fa-duotone fa-eye"></i>
                                                         تصفح
                                                     </a>
@@ -145,20 +145,20 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="course__item white-bg mb-30 fix">
                                             <div class="course__thumb w-img p-relative fix">
-                                                <a href="course-details.html">
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
+                                                <a href="{{url('gallery')}}">
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}" alt="">
                                                 </a>
                                                 <div class="course__tag">
-                                                    <a href="#" class="green">مناسبات</a>
+                                                    <a href="{{url('gallery')}}" class="green">مناسبات</a>
                                                 </div>
                                             </div>
                                             <div class="course__content">
-                                                <h3 class="course__title"><a href="course-details.html">احتفال بعيد الفطر المبارك</a></h3>
+                                                <h3 class="course__title"><a href="{{url('gallery')}}">احتفال بعيد الفطر المبارك</a></h3>
                                             </div>
                                             <div class="course__more d-flex justify-content-between align-items-center">
 
                                                 <div class="course__btn">
-                                                    <a href="course-details.html" class="link-btn">
+                                                    <a href="{{url('gallery')}}" class="link-btn">
                                                         <i class="fa-duotone fa-eye"></i>
                                                         تصفح
                                                     </a>
@@ -169,20 +169,20 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="course__item white-bg mb-30 fix">
                                             <div class="course__thumb w-img p-relative fix">
-                                                <a href="course-details.html">
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" alt="">
+                                                <a href="{{url('gallery')}}">
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-52.jpg')}}" alt="">
                                                 </a>
                                                 <div class="course__tag">
-                                                    <a href="#" class="blue">تخرج</a>
+                                                    <a href="{{url('gallery')}}" class="blue">تخرج</a>
                                                 </div>
                                             </div>
                                             <div class="course__content">
-                                                <h3 class="course__title"><a href="course-details.html">تخرج الطلبة و انهاء الدراسة بنجاح</a></h3>
+                                                <h3 class="course__title"><a href="c{{url('gallery')}}">تخرج الطلبة و انهاء الدراسة بنجاح</a></h3>
                                             </div>
                                             <div class="course__more d-flex justify-content-between align-items-center">
 
                                                 <div class="course__btn">
-                                                    <a href="course-details.html" class="link-btn">
+                                                    <a href="{{url('gallery')}}" class="link-btn">
                                                             تصفح
                                                         <i class="fa-duotone fa-eye"></i>
                                                     </a>
@@ -199,32 +199,16 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="basic-pagination wow fadeInUp mt-30" data-wow-delay=".2s">
-                        <ul class="d-flex align-items-center">
-                            <li class="prev">
-                                <a href="course-grid.html" class="link-btn link-prev">
-                                    <i class="fa-duotone fa-arrow-right me-2"></i>
-                                    السابق
-                                </a>
-                            </li>
+                        <ul class="d-flex align-items-center justify-content-center">
                             <li>
-                                <a href="course-grid.html">
-                                    <span>1</span>
+                                <a href="{{url('gallery')}}" class="link-btn">
+                                    <i class="fa-duotone fa-arrow-right"></i>
                                 </a>
                             </li>
-                            <li class="active">
-                                <a href="course-grid.html">
-                                    <span>2</span>
-                                </a>
-                            </li>
+
                             <li>
-                                <a href="course-grid.html">
-                                    <span>3</span>
-                                </a>
-                            </li>
-                            <li class="next">
-                                <a href="course-grid.html" class="link-btn">
-                                    التالي
-                                    <i class="fa-duotone fa-arrow-left ms-2"></i>
+                                <a href="{{url('gallery')}}" class="link-btn">
+                                    <i class="fa-duotone fa-arrow-left"></i>
                                 </a>
                             </li>
                         </ul>

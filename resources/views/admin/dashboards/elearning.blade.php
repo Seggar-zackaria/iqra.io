@@ -33,7 +33,7 @@
                     <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
                         <ul class="breadcrumb pt-0">
                             <li class="breadcrumb-item"><a href="/">Home</a></li>
-                            <li class="breadcrumb-item"><a href="/Dashboards/Elearning">Dashboards</a></li>
+                            <li class="breadcrumb-item"><a href="admin/Dashboards/Elearning">Dashboards</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -53,7 +53,7 @@
                         <div class="card mb-2">
                             <div class="row g-0 sh-14">
                                 <div class="col-auto">
-                                    <a href="/Course/Detail" class="d-block position-relative h-100">
+                                    <a href="{{url('admin/Course/Detail')}}" class="d-block position-relative h-100">
                                         <img src="/img/course/small/course-1.webp" alt="alternate text" class="card-img card-img-horizontal sw-14 sw-lg-18" />
                                     </a>
                                 </div>
@@ -61,7 +61,7 @@
                                     <div class="card-body pt-0 pb-0 h-100 d-flex align-items-center">
                                         <div class="w-100">
                                             <div class="d-flex flex-row justify-content-between mb-2">
-                                                <a href="/Course/Detail" class="font-heading mb-1">React Web Developer Course</a>
+                                                <a href="{{url('admin/Course/Detail')}}" class="font-heading mb-1">React Web Developer Course</a>
                                                 <div class="text-muted">67%</div>
                                             </div>
                                             <div class="progress mb-2">
@@ -76,7 +76,7 @@
                         <div class="card mb-2">
                             <div class="row g-0 sh-14">
                                 <div class="col-auto">
-                                    <a href="/Course/Detail" class="d-block position-relative h-100">
+                                    <a href="{{url('admin/Course/Detail')}}" class="d-block position-relative h-100">
                                         <img src="/img/course/small/course-2.webp" alt="alternate text" class="card-img card-img-horizontal sw-14 sw-lg-18" />
                                     </a>
                                 </div>
@@ -84,7 +84,7 @@
                                     <div class="card-body pt-0 pb-0 h-100 d-flex align-items-center">
                                         <div class="w-100">
                                             <div class="d-flex flex-row justify-content-between mb-2">
-                                                <a href="/Course/Detail" class="font-heading mb-1">Python: From Zero to Expert</a>
+                                                <a href="{{url('admin/Course/Detail')}}" class="font-heading mb-1">Python: From Zero to Expert</a>
                                                 <div class="text-muted">85%</div>
                                             </div>
                                             <div class="progress mb-2">
@@ -99,7 +99,7 @@
                         <div class="card mb-2">
                             <div class="row g-0 sh-14">
                                 <div class="col-auto">
-                                    <a href="/Course/Detail" class="d-block position-relative h-100">
+                                    <a href="{{url('admin/Course/Detail')}}" class="d-block position-relative h-100">
                                         <img src="/img/course/small/course-3.webp" alt="alternate text" class="card-img card-img-horizontal sw-14 sw-lg-18" />
                                     </a>
                                 </div>
@@ -107,7 +107,7 @@
                                     <div class="card-body pt-0 pb-0 h-100 d-flex align-items-center">
                                         <div class="w-100">
                                             <div class="d-flex flex-row justify-content-between mb-2">
-                                                <a href="/Course/Detail" class="font-heading mb-1">Learn and Understand NodeJS</a>
+                                                <a href="{{url('admin/Course/Detail')}}" class="font-heading mb-1">Learn and Understand NodeJS</a>
                                                 <div class="text-muted">14%</div>
                                             </div>
                                             <div class="progress mb-2">
@@ -122,7 +122,7 @@
                         <div class="card mb-2">
                             <div class="row g-0 sh-14">
                                 <div class="col-auto">
-                                    <a href="/Course/Detail" class="d-block position-relative h-100">
+                                    <a href="{{url('admin/Course/Detail')}}" class="d-block position-relative h-100">
                                         <img src="/img/course/small/course-4.webp" alt="alternate text" class="card-img card-img-horizontal sw-14 sw-lg-18" />
                                     </a>
                                 </div>
@@ -130,7 +130,7 @@
                                     <div class="card-body pt-0 pb-0 h-100 d-flex align-items-center">
                                         <div class="w-100">
                                             <div class="d-flex flex-row justify-content-between mb-2">
-                                                <a href="/Course/Detail" class="font-heading mb-1">HTML 5 - The Complete Guide</a>
+                                                <a href="{{url('admin/Course/Detail')}}" class="font-heading mb-1">HTML 5 - The Complete Guide</a>
                                                 <div class="text-muted">63%</div>
                                             </div>
                                             <div class="progress mb-2">
@@ -145,7 +145,7 @@
                         <div class="card mb-2">
                             <div class="row g-0 sh-14">
                                 <div class="col-auto">
-                                    <a href="/Course/Detail" class="d-block position-relative h-100">
+                                    <a href="{{url('admin/Course/Detail')}}" class="d-block position-relative h-100">
                                         <img src="/img/course/small/course-5.webp" alt="alternate text" class="card-img card-img-horizontal sw-14 sw-lg-18" />
                                     </a>
                                 </div>
@@ -153,7 +153,7 @@
                                     <div class="card-body pt-0 pb-0 h-100 d-flex align-items-center">
                                         <div class="w-100">
                                             <div class="d-flex flex-row justify-content-between mb-2">
-                                                <a href="/Course/Detail" class="font-heading mb-1">Getting Started with Gulpjs</a>
+                                                <a href="{{url('admin/Course/Detail')}}" class="font-heading mb-1">Getting Started with Gulpjs</a>
                                                 <div class="text-muted">36%</div>
                                             </div>
                                             <div class="progress mb-2">
@@ -195,7 +195,7 @@
                             <div>$ 27.50</div>
                         </div>
                         <div>
-                            <a href="/Course/Detail" class="btn btn-icon btn-icon-start btn-primary mt-3 stretched-link">
+                            <a href="{{url('admin/Course/Detail')}}" class="btn btn-icon btn-icon-start btn-primary mt-3 stretched-link">
                                 <i data-acorn-icon="chevron-right"></i>
                                 <span>View</span>
                             </a>
@@ -372,7 +372,7 @@
                 <div class="card h-100">
                     <img src="/img/course/small/course-4.webp" class="card-img-top sh-22" alt="card image" />
                     <div class="card-body">
-                        <h5 class="heading mb-0"><a href="/Course/Detail" class="body-link stretched-link">Introduction to Bread Making</a></h5>
+                        <h5 class="heading mb-0"><a href="{{url('admin/Course/Detail')}}" class="body-link stretched-link">Introduction to Bread Making</a></h5>
                     </div>
                     <div class="card-footer border-0 pt-0">
                         <div class="mb-2">
@@ -400,7 +400,7 @@
                 <div class="card h-100">
                     <img src="/img/course/small/course-5.webp" class="card-img-top sh-22" alt="card image" />
                     <div class="card-body">
-                        <h5 class="heading mb-0"><a href="/Course/Detail" class="body-link stretched-link">14 Facts About Sugar</a></h5>
+                        <h5 class="heading mb-0"><a href="{{url('admin/Course/Detail')}}" class="body-link stretched-link">14 Facts About Sugar</a></h5>
                     </div>
                     <div class="card-footer border-0 pt-0">
                         <div class="mb-2">
@@ -429,7 +429,7 @@
                     <span class="badge rounded-pill bg-primary me-1 position-absolute e-3 t-3 z-index-1">POPULAR</span>
                     <img src="/img/course/small/course-6.webp" class="card-img-top sh-22" alt="card image" />
                     <div class="card-body">
-                        <h5 class="heading mb-0"><a href="/Course/Detail" class="body-link stretched-link">Apple Cake Recipe</a></h5>
+                        <h5 class="heading mb-0"><a href="{{url('admin/Course/Detail')}}" class="body-link stretched-link">Apple Cake Recipe</a></h5>
                     </div>
                     <div class="card-footer border-0 pt-0">
                         <div class="mb-2">
@@ -457,7 +457,7 @@
                 <div class="card h-100">
                     <img src="/img/course/small/course-7.webp" class="card-img-top sh-22" alt="card image" />
                     <div class="card-body">
-                        <h5 class="heading mb-0"><a href="/Course/Detail" class="body-link stretched-link">Dough for the Molds</a></h5>
+                        <h5 class="heading mb-0"><a href="{{url('admin/Course/Detail')}}" class="body-link stretched-link">Dough for the Molds</a></h5>
                     </div>
                     <div class="card-footer border-0 pt-0">
                         <div class="mb-2">
@@ -485,7 +485,7 @@
                 <div class="card h-100">
                     <img src="/img/course/small/course-9.webp" class="card-img-top sh-22" alt="card image" />
                     <div class="card-body">
-                        <h5 class="heading mb-0"><a href="/Course/Detail" class="body-link stretched-link">Fruit Decorations</a></h5>
+                        <h5 class="heading mb-0"><a href="{{url('admin/Course/Detail')}}" class="body-link stretched-link">Fruit Decorations</a></h5>
                     </div>
                     <div class="card-footer border-0 pt-0">
                         <div class="mb-2">

@@ -28,7 +28,7 @@
                     <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
                         <ul class="breadcrumb pt-0">
                             <li class="breadcrumb-item"><a href="/">Home</a></li>
-                            <li class="breadcrumb-item"><a href="/Dashboards/Elearning">Dashboards</a></li>
+                            <li class="breadcrumb-item"><a href="admin/Dashboards/Elearning">Dashboards</a></li>
                         </ul>
                     </nav>
                 </div>

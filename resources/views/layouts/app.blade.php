@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+          rel="stylesheet">
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/webicon.svg">
     <!-- CSS here -->
@@ -75,7 +76,7 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href="course-grid.html" class="cat-menu d-flex align-items-center">
+                                        <a class="cat-menu d-flex align-items-center">
                                             <div class="cat-dot-icon d-inline-block">
                                                 <svg viewBox="0 0 276.2 276.2">
                                                     <g>
@@ -96,10 +97,10 @@
                                             <span>فئة</span>
                                         </a>
                                         <ul class="cat-submenu">
-                                            <li><a href="course-details.html">مقالات</a></li>
-                                            <li><a href="course-details.html">حفالات</a></li>
-                                            <li><a href="course-details.html">رحالات</a></li>
-                                            <li><a href="course-details.html">نشاطات</a></li>
+                                            <li><a href="{{url('article')}}">مقالات</a></li>
+                                            <li><a href="{{url('article')}}">حفالات</a></li>
+                                            <li><a href="{{url('article')}}">رحالات</a></li>
+                                            <li><a href="{{url('article')}}">نشاطات</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -167,7 +168,7 @@
         </div>
         <div class="sidebar__content">
             <div class="logo mb-40">
-                <a href="index.html">
+                <a href="{{url('/')}}">
                     <img src="{{asset('assets/img/logo.svg')}}" width="36" alt="logo">
                 </a>
             </div>
@@ -191,25 +192,23 @@
 
 <!-- footer area start -->
 <footer>
-    <div class="footer__area footer-bg">
-        <div class="footer__top pt-190 pb-40">
+    <div class="footer__area footer-bg z-index-5">
+        <div class="footer__top pt-50 pb-40">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="footer__widget mb-50">
                             <div class="footer__widget-head mb-22">
                                 <div class="footer__logo">
-                                    <a href="index.html">
                                         <h3 class="text-light  fw-bold"> مدرسة  <span class="text-primary">إقرأ</span> جنيف</h3>
-                                    </a>
                                 </div>
                             </div>
                             <div class="footer__widget-body">
                                 <p>       مدرسة جنيف العربية، هي مدرسة بسويسرا تابعة للمؤسسة الثقافية الإسلامية بجنيف، انشئت سنة 1978، ومنذ ذلك تعمل بالتعاون مع جميع عناصر العملية (الطاقم الإداري والتربوي والتلاميذ والاولياء) في بيئة آمنة من اجل دعم أبناء الجالية دينيا وتربويا وعقليا وخُلقيا ولغويا ومهارايا؛ وغيرهم من الجاليات غير المسلمة فيما يتعلق باللغة العربية من خلال فريق مؤهل إداريا وتربويا ومعرفيا وفق المعايير المعمول بها في التعليم، في بيئة تتسم بالتعاون والحيوية والتفاعل.</p>
 
-                                <div class="footer__social">
+                                <div class="footer__social ">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/" class="fb" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                                         <li><a href="https://www.twitter.com/" class="tw" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                                         <li><a href="https://www.youtube.com/" class="pin" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
@@ -217,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-2 offset-xxl-2 col-xl-3 offset-xl-1 col-lg-4 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
+                    <div class="col-xxl-2 offset-xxl-1 col-xl-3 offset-xl-1 col-lg-2 offset-lg-1 col-md-3 col-6">
                         <div class="footer__widget mb-50">
                             <div class="footer__widget-head mb-22">
                                 <h3 class="footer__widget-title">اختصارات</h3>
@@ -225,33 +224,44 @@
                             <div class="footer__widget-body">
                                 <div class="footer__link">
                                     <ul>
-                                        <li><a href="#">مقالات</a></li>
+                                        <li><a href="{{url('article')}}">مقالات</a></li>
                                         <li><a href="#">دورات</a></li>
-                                        <li><a href="#">معرض الصور</a></li>
-                                        <li><a href="#">هيكلة المدرسة</a></li>
-                                        <li><a href="#">تواصلوا معنا</a></li>
+                                        <li><a href="{{url('show-case')}}">معرض الصور</a></li>
+                                        <li><a href="{{url('about')}}">هيكلة المدرسة</a></li>
+                                        <li><a href="{{url('contact')}}">تواصلوا معنا</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
+                    <div class="col-xxl-3 col-xl-2 col-lg-3 offset-lg-0 col-6">
                         <div class="footer__widget mb-50">
                             <div class="footer__widget-head mb-22">
-                                <h3 class="footer__widget-title">Platform</h3>
+                                <h3 class="footer__widget-title">تواصلوا معنا</h3>
                             </div>
                             <div class="footer__widget-body">
                                 <div class="footer__link">
-                                    <ul>
-                                        <li><a href="#">Browse Library</a></li>
-                                        <li><a href="#">Library</a></li>
-                                        <li><a href="#">Partners</a></li>
-                                        <li><a href="#">News & Blogs</a></li>
-                                        <li><a href="#">FAQs</a></li>
-                                        <li><a href="#">Tutorials</a></li>
+                                    <ul >
+                                        <li class="contact__info-text-ltr d-inline-flex align-items-center ">
+                                            <i class="fa-light fa-phone text-white me-2"></i>
+                                            <a style="direction: ltr;" href="tel:+(41) 799 653 711">+(41) 799 653 711</a>
+                                        </li>
+                                        <li class="d-inline-flex align-items-center my-2">
+                                            <i class="fa-light fa-location-dot text-white me-2"></i>
+                                            <a href="https://rb.gy/2ua5cv" target="_blank">chemin Colladon 1209 Genève Suisse</a>
+                                        </li>
+                                        <li class="d-inline-flex align-items-center ">
+                                            <i class="fa-light fa-envelope text-white me-2"></i>
+                                            <a href="mailto:info@fcigeneve.ch">Madrassa@fcigeneve.ch</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 col-sm-12">
+                        <div class="d-flex">
+                            <a class="mx-auto align-self-center" href="">  <img src="{{asset('assets/img/webicon.svg')}}" alt="logo" class="img-fluid " style="width: 95px"></a>
                         </div>
                     </div>
 

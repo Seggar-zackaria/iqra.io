@@ -133,7 +133,7 @@
                         <div class="banner__content">
                             <span>امتياز</span>
                             <h3 class="banner__title">
-                                <a href="course-details.html">الطلاب الممتازين <br> و متخرجين</a>
+                                <a href="{{url('/in-article')}}">الطلاب الممتازين <br> و متخرجين</a>
                             </h3>
                         </div>
                         <div class="banner__thumb d-none d-sm-block d-md-none d-lg-block">
@@ -148,7 +148,7 @@
                         <div class="banner__content">
                             <span class="orange">مقال</span>
                             <h3 class="banner__title">
-                                <a href="course-details.html">عن المدرسة <br>من مدرسة اقرا</a>
+                                <a href="{{url('/in-article')}}">عن المدرسة <br>من مدرسة اقرا</a>
                             </h3>
                         </div>
                         <div class="banner__thumb banner__thumb-2 d-none d-sm-block d-md-none d-lg-block">
@@ -177,7 +177,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html" >
+                            <a href="{{url('/in-article')}}" >
                                 <img alt="" class="object-fit-cover" style=" background-position: center;"  src="assets/img/school/photo_2023-02-24_19-44-06.jpg">
                             </a>
                             <div class="course__tag">
@@ -190,14 +190,14 @@
                                     <span><i class="fa-duotone fa-timer me-2"></i> منذ أسبوع</span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="course-details.html">رحالات مدرسية ممتع مع الأستاذة بن فلان</a></h3>
+                            <h3 class="course__title"><a href="{{url('/in-article')}}">رحالات مدرسية ممتع مع الأستاذة بن فلان</a></h3>
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
                             <div class="course__status">
                                 <span>المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
                                     <i class="fa-duotone fa-arrow-left ms-2"></i>
                                 </a>
@@ -208,7 +208,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat3 cat4">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html">
+                            <a href="{{url('/in-article')}}">
                                 <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" class="img-fluid" alt="">
                             </a>
                             <div class="course__tag">
@@ -218,19 +218,19 @@
                         <div class="course__content">
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
-                                    <span><i class="fa-light fa-timer me-2"></i> منذ ساعة</span>
+                                    <span><i class="fa-duotone fa-timer me-2"></i> منذ ساعة</span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="course-details.html">نشاطات عن المدرسة</a></h3>
+                            <h3 class="course__title"><a href="{{url('/in-article')}}">نشاطات عن المدرسة</a></h3>
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
                             <div class="course__status d-flex align-items-center">
                                 <span class="sky-blue">المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
-                                    <i class="fa-light fa-arrow-left ms-2"></i>
+                                    <i class="fa-duotone fa-arrow-left ms-2"></i>
                                 </a>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat4 cat3">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html">
+                            <a href="{{url('/in-article')}}">
                                 <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
                             </a>
                             <div class="course__tag">
@@ -249,19 +249,19 @@
                         <div class="course__content">
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
-                                    <span><i class="fa-light fa-timer me-2"></i> منذ ساعة</span>
+                                    <span><i class="fa-duotone fa-timer me-2"></i> منذ ساعة</span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="course-details.html">مقال عن مماراسات المدرسة</a></h3>
+                            <h3 class="course__title"><a href="{{url('/in-article')}}">مقال عن مماراسات المدرسة</a></h3>
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
                             <div class="course__status d-flex align-items-center">
                                 <span class="green">المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}" class="link-btn">
                                      تصفح المزيد
-                                    <i class="fa-light fa-arrow-left ms-2"></i>
+                                    <i class="fa-duotone fa-arrow-left ms-2"></i>
                                 </a>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat1 cat3">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html">
+                            <a href="{{url('/in-article')}}">
                                 <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" class="img-fluid" alt="">
                             </a>
                             <div class="course__tag">
@@ -280,7 +280,7 @@
                         <div class="course__content">
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
-                                    <span><i class="fa-light fa-timer me-2"></i>منذ 3 ساعات</span>
+                                    <span><i class="fa-duotone fa-timer me-2"></i>منذ 3 ساعات</span>
                                 </div>
                             </div>
                             <h3 class="course__title"><a href="course-details.html"> تخرج الطلاب من مدرسة غقرا حنيف</a></h3>
@@ -291,9 +291,9 @@
                                 <span class="blue">المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
-                                    <i class="fa-light fa-arrow-left ms-2"></i>
+                                    <i class="fa-duotone fa-arrow-left ms-2"></i>
                                 </a>
                             </div>
                         </div>
@@ -302,7 +302,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat2 cat4">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html">
+                            <a href="{{url('/in-article')}}">
                                 <img src="assets/img/school/photo_2023-02-24_19-44-21.jpg" alt="">
                             </a>
                             <div class="course__tag">
@@ -313,20 +313,20 @@
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
                                     <span>
-                                        <span><i class="fa-light fa-timer me-2"></i>منذ 2ساعات</span>
+                                        <span><i class="fa-duotone fa-timer me-2"></i>منذ 2ساعات</span>
                                     </span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="course-details.html">مناسبت عيد الأضحى قامت المدرسة باحتفال</a></h3>
+                            <h3 class="course__title"><a href="{{url('/in-article')}}">مناسبت عيد الأضحى قامت المدرسة باحتفال</a></h3>
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
                             <div class="course__status d-flex align-items-center">
                                 <span class="orange">المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}l" class="link-btn">
                                     تصفح المزيد
-                                    <i class="far fa-arrow-left"></i>
+                                    <i class="fa-duotone fa-arrow-left"></i>
                                 </a>
                             </div>
                         </div>
@@ -335,7 +335,7 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat3">
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
-                            <a href="course-details.html">
+                            <a href="{{url('/in-article')}}">
                                 <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
                             </a>
                             <div class="course__tag">
@@ -346,21 +346,21 @@
                             <div class="course__meta d-flex align-items-center justify-content-between">
                                 <div class="course__lesson">
                                     <span>
-                                        <span><i class="fa-light fa-timer me-2"></i>منذ 1 ساعة</span>
+                                        <span><i class="fa-duotone fa-timer me-2"></i>منذ 1 ساعة</span>
                                     </span>
                                 </div>
 
                             </div>
-                            <h3 class="course__title"><a href="course-details.html">احتفال بيوم التخرج الطلاب</a></h3>
+                            <h3 class="course__title"><a href="{{url('/in-article')}}">احتفال بيوم التخرج الطلاب</a></h3>
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
                             <div class="course__status d-flex align-items-center">
                                 <span class="pink">المزيد</span>
                             </div>
                             <div class="course__btn">
-                                <a href="course-details.html" class="link-btn">
+                                <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
-                                    <i class="far fa-arrow-left"></i>
+                                    <i class="fa-duotone fa-arrow-left"></i>
                                 </a>
                             </div>
                         </div>
@@ -486,7 +486,7 @@
                             <div class="events__content">
 
                                 <h3 class="events__title"> <i class="fa-duotone fa-sparkles fs-3 me-2 text-primary"></i>حفظ القرآن</h3>
-                                <p class="mb-0 mt-2">حفظ بعض السور القرآنية المختارة ( 05حوالي احزاب)</p>
+                                <p class="mb-0 mt-2">حفظ بعض السور القرآنية المختارة (حوالي 05 احزاب)</p>
                             </div>
                         </div>
                     </div>
@@ -513,42 +513,99 @@
                         </div>
                     </div>
                 </div>
-
-                <div>
-                    <button id="load-more" class="btn btn-outline-primary d-flex mx-auto justify-content-center my-3" style="width: 11rem">
-                        تصفح المزيد
-                    </button>
-
-                </div>
-
             </div>
         </div>
     </section>
     <!-- events area end -->
 
-    <!-- cta area start -->
-    <section class="cta__area mb--120">
+    <!-- testimonial area end -->
+    <section class="events__area pt-90 pb-120 p-relative" style="background: #f4f4f4">
+        <div class="events__shape">
+            <img class="events-1-shape"
+                 width="550px"
+                 src="assets/img/events/events-shape.png"
+                 alt="">
+        </div>
         <div class="container">
-            <div class="cta__inner blue-bg fix">
-                <div class="cta__shape">
-                    <img src="assets/img/cta/cta-shape.png" alt="">
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-xxl-7 col-xl-7 col-lg-8 col-md-8">
-                        <div class="cta__content">
-                            <h3 class="cta__title">يمكن تسجيل اولادك هنا</h3>
-                        </div>
-                    </div>
-                    <div class="col-xxl-5 col-xl-5 col-lg-4 col-md-4">
-                        <div class="cta__more d-md-flex justify-content-end p-relative z-index-1">
-                            <a href="contact.html" class="e-btn e-btn-white">سجل الان</a>
-                        </div>
+                <div class="col-xxl-4 offset-xxl-4">
+                    <div class="section__title-wrapper mb-60 text-center">
+                        <h2 class="section__title">  أراء<span class="yellow-bg yellow-bg-big"> الناس<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
+                        <p>اراء الناس حول المدرسة.</p>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 ">
+                        <div class="mb-10">
+                            <div class="hover__active">
+                                <div class="events__item " >
+                                    <div class="events__content bg-white p-3 rounded-3 vstack shadow">
+                                        <h5 class="events__title mb-3">سقار زكرياء</h5>
+                                        <div class="testimonial-icon">
+                                            <i class="fa-duotone fa-quote-right"></i>
+                                        </div>
+                                       <p> تقدير قيمة اللغة واهميتها في حياة المتعلم وحضارته كفرد مسلم نطق الحروف بشكل صحيح، والتعريف ب الرسم العثماني.</p>
+                                        <p class="fst-italic text-muted"> -طالب سابق</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3">
+                        <div class="mb-10">
+                            <div class="hover__active">
+                                <div class="events__item " >
+                                    <div class="events__content bg-white p-3 rounded-3 vstack shadow">
+                                        <h5 class="events__title mb-3">سقار زكرياء</h5>
+                                        <div class="testimonial-icon">
+                                            <i class="fa-duotone fa-quote-right"></i>
+                                        </div>
+                                       <p> تقدير قيمة اللغة واهميتها في حياة المتعلم وحضارته كفرد مسلم نطق الحروف بشكل صحيح، والتعريف ب الرسم العثماني.</p>
+                                        <p class="fst-italic text-muted"> -طالب سابق</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 ">
+                        <div class="mb-10">
+                            <div class="hover__active">
+                                <div class="events__item " >
+                                    <div class="events__content bg-white p-3 rounded-3 vstack shadow">
+                                        <h5 class="events__title mb-3">سقار زكرياء</h5>
+                                        <div class="testimonial-icon">
+                                            <i class="fa-duotone fa-quote-right"></i>
+                                        </div>
+                                       <p> تقدير قيمة اللغة واهميتها في حياة المتعلم وحضارته كفرد مسلم نطق الحروف بشكل صحيح، والتعريف ب الرسم العثماني.</p>
+                                        <p class="fst-italic text-muted"> -طالب سابق</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 ">
+                        <div class="mb-10">
+                            <div class="hover__active">
+                                <div class="events__item " >
+                                    <div class="events__content bg-white p-3 rounded-3 vstack shadow">
+                                        <h5 class="events__title mb-3">سقار زكرياء</h5>
+                                        <div class="testimonial-icon">
+                                            <i class="fa-duotone fa-quote-right"></i>
+                                        </div>
+                                       <p> تقدير قيمة اللغة واهميتها في حياة المتعلم وحضارته كفرد مسلم نطق الحروف بشكل صحيح، والتعريف ب الرسم العثماني.</p>
+                                        <p class="fst-italic text-muted"> -طالب سابق</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
     </section>
-    <!-- cta area end -->
+
+    <!-- testimonial area end -->
 
 @endsection
 

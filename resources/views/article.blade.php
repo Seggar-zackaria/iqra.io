@@ -244,7 +244,7 @@
 
                                         <div class="blog__meta d-flex align-items-center justify-content-between">
                                             <div class="blog__date d-flex align-items-center">
-                                                <i class="fa-duotone fa-clock me-2"></i>
+                                                <i class="fa-duotone fa-clock "></i>
                                                 <span>افريل 02, 2022</span>
                                             </div>
                                             <div class="blog__author d-flex align-items-center">
@@ -271,33 +271,16 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="basic-pagination wow fadeInUp mt-30" data-wow-delay=".2s">
-                                <ul class="d-flex align-items-center">
-                                    <li class="next">
+                                <ul class="d-flex align-items-center justify-content-center">
+                                    <li>
                                         <a href="{{url('/article')}}" class="link-btn">
-                                            <i class="fa-duotone fa-arrow-right me-2"></i>
-                                            التالي
+                                            <i class="fa-duotone fa-arrow-right"></i>
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="#">
-                                            <span>1</span>
-                                        </a>
-                                    </li>
-                                    <li class="active">
-                                        <a href="{{url('/article')}}">
-                                            <span>2</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{url('/article')}}">
-                                            <span>3</span>
-                                        </a>
-                                    </li>
-                                    <li class="prev">
-                                        <a href="{{url('/article')}}" class="link-btn link-prev">
-                                            السابق
-                                            <i class="fa-duotone fa-arrow-left ms-2"></i>
+                                        <a href="{{url('/article')}}" class="link-btn">
+                                            <i class="fa-duotone fa-arrow-left"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -383,7 +366,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sidebar__widget mb-55">
+                        <div class="sidebar__widget mb-55 d-none d-lg-block">
                             <div class="sidebar__banner w-img">
                                 <img src="assets/img/svg/Education-rafiki.svg" alt="">
                             </div>

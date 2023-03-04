@@ -101,11 +101,11 @@
 
 	////////////////////////////////////////////////////
     // 07. Data Background Js
-	$("[data-background").each(function () {
+	$("[data-background]").each(function () {
 		$(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
 	});
 
-  
+
 	////////////////////////////////////////////////////
     // 08. Testimonial Slider Js
 	var swiper = new Swiper('.testimonial__slider', {
@@ -114,7 +114,7 @@
 			prevEl: '.swiper-button-prev',
 		},
 	});
-	
+
 
 
 	////////////////////////////////////////////////////
@@ -125,7 +125,7 @@
 		freeMode: true,
 		watchSlidesVisibility: true,
 		watchSlidesProgress: true,
-		
+
 	});
 	var galleryTop = new Swiper('.slider__wrapper', {
 		spaceBetween: 0,
@@ -208,7 +208,7 @@
 	var swiper = new Swiper('.course__slider', {
 	spaceBetween: 30,
 	slidesPerView: 2,
-	breakpoints: {  
+	breakpoints: {
 		'768': {
 			slidesPerView: 2,
 		},
@@ -224,7 +224,7 @@
 		clickable: true,
 	},
 	});
-	
+
 	////////////////////////////////////////////////////
     // 13. Masonary Js
 	$('.grid').imagesLoaded( function() {
@@ -264,7 +264,7 @@
 	$("[data-width]").each(function () {
 		$(this).css("width", $(this).attr("data-width"));
 	  });
-	
+
 
 	////////////////////////////////////////////////////
     // 16. Cart Quantity Js
@@ -318,14 +318,14 @@
 		selector: ".filesizecount",
 		pulse: 2,
 	});
-	
+
 	////////////////////////////////////////////////////
 	// 22. Parallax Js
 	if ($('.scene').length > 0 ) {
 		$('.scene').parallax({
 			scalarX: 10.0,
 			scalarY: 15.0,
-		}); 
+		});
 	};
 
 	////////////////////////////////////////////////////
@@ -335,3 +335,34 @@
 	});
 
 })(jQuery);
+
+
+
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+     nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        425:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        768:{
+          items:1
+        },
+        1000:{
+            items:1
+        },
+        1024:{
+          items:1
+        },
+        1440:{
+          items:1
+        },
+    }
+})
