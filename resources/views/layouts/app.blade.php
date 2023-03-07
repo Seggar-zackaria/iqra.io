@@ -53,8 +53,8 @@
 
 <!-- back to top start -->
 <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 274.911;"></path>
+    <svg class="progress-circle svg-content" fill="none" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 227.245;"></path>
     </svg>
 </div>
 <!-- back to top end -->
@@ -68,8 +68,8 @@
                     <div class="header__left d-flex align-items-center">
                         <div class="logo">
                             <a href="{{url('/')}}">
-                                <img src="{{asset('assets/img/logo.svg')}}" alt="logo" class="img-fluid logo-black" style="width: 40px">
-                                <img src="{{asset('assets/img/webicon.svg')}}" alt="logo" class="img-fluid logo-white" style="width: 40px">
+                                <img src="{{asset('assets/img/logo.svg')}}" alt="logo" class="img-fluid" style="width: 40px">
+
                             </a>
                         </div>
                         <div class="header__category d-none d-lg-block">
@@ -122,26 +122,26 @@
                                     <li>
                                         <a href="{{url('/about-us')}}">هيكلة المدرسة</a>
                                     </li>
-                                    <li class="has-dropdown">
-                                        <a href="course-grid.html">الدورات</a>
-                                        <ul class="submenu">
-                                            <li><a href="course-grid.html">دورة اللغة العربية</a></li>
-                                            <li><a href="course-list.html">دورة قرآنية</a></li>
-                                            <li><a href="course-sidebar.html">دورة في الشريعة الإسلامية</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="has-dropdown">
+                                    <li>
                                         <a href="{{url('show-case')}}">معرض الصور</a>
-                                      {{--  <ul class="submenu">
-                                            <li><a href="about.html">About</a></li>
-
-                                        </ul>--}}
                                     </li>
                                     <li><a href="{{url('/contact')}}">تواصلوا معنا</a></li>
                                 </ul>
                             </nav>
                         </div>
-
+                                <div class="header__btn p-0 ml-50 d-none d-xl-block">
+                                    <a href="{{url('sign-up')}}" class="btn btn-primary py-2">سجل الدخول </a>
+                                </div>
+                        {{--AUTH--}}
+                     {{--  <div class="dropdown">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-duotone fa-user"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{url('admin')}}">حساب الشخصي</a></li>
+                                <li><a class="dropdown-item" ><i class="fa-duotone fa-arrow-right-to-bracket"></i> خروج</a></li>
+                            </ul>
+                        </div>--}}
                         <div class="sidebar__menu d-xl-none">
                             <div class="sidebar-toggle-btn ml-30" id="sidebar-toggle">
                                 <span class="line"></span>
@@ -162,7 +162,7 @@
     <div class="sidebar__wrapper">
         <div class="sidebar__close">
             <button class="sidebar__close-btn" id="sidebar__close-btn">
-                <span><i class="fal fa-times"></i></span>
+                <span><i class="fa-duotone fa-times"></i></span>
                 <span>ferme</span>
             </button>
         </div>
@@ -173,7 +173,9 @@
                 </a>
             </div>
             <div class="mobile-menu fix"></div>
-
+            <div class=" p-relative mt-20 ">
+                <a href="{{url('sign-up')}}">  <button class="btn btn-primary" type="submit"> تسجيل الدخول</button></a>
+            </div>
         </div>
     </div>
 </div>
@@ -216,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-2 offset-xxl-1 col-xl-3 offset-xl-1 col-lg-2 offset-lg-1 col-md-3 col-6">
+                    <div class="col-xxl-2 offset-xxl-1 col-xl-3 offset-xl-1 col-lg-2 offset-lg-1 col-md-3 col-sm-12">
                         <div class="footer__widget mb-50">
                             <div class="footer__widget-head mb-22">
                                 <h3 class="footer__widget-title">اختصارات</h3>
@@ -234,7 +236,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-3 col-xl-2 col-lg-3 offset-lg-0 col-6">
+                    <div class="col-xxl-3 col-xl-2 col-lg-3 offset-lg-0 col-md-6 col-sm-12">
                         <div class="footer__widget mb-50">
                             <div class="footer__widget-head mb-22">
                                 <h3 class="footer__widget-title">تواصلوا معنا</h3>

@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/page-title.jpg">
+    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/pages-title.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+           </div>
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="course__tab-conent">
@@ -201,13 +201,13 @@
                     <div class="basic-pagination wow fadeInUp mt-30" data-wow-delay=".2s">
                         <ul class="d-flex align-items-center justify-content-center">
                             <li>
-                                <a href="{{url('gallery')}}" class="link-btn">
+                                <a href="{{url('')}}" class="link-btn">
                                     <i class="fa-duotone fa-arrow-right"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="{{url('gallery')}}" class="link-btn">
+                                <a href="{{url('')}}" class="link-btn">
                                     <i class="fa-duotone fa-arrow-left"></i>
                                 </a>
                             </li>

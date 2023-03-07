@@ -27,7 +27,7 @@
                     <div class="sign__wrapper white-bg">
                         <div class="sign__header mb-35">
                             <div class="sign__in text-center">
-                                <a href="#" class="sign__social g-plus mb-15"><i class="fab fa-google text-white fs-4 ms-5"></i>Sign Up with Google</a>
+                                <a href="google.com" class="sign__social g-plus mb-15"><i class="fab fa-google text-white fs-4 ms-5"></i>Sign Up with Google</a>
                                 <p> <span>........</span> Or, <a href="sign-up.html">sign up</a> with your email<span> ........</span> </p>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                 </div>
                                 <button class="e-btn w-100">  انشاء حساب</button>
                                 <div class="sign__new text-center mt-20">
-                                    <p>عضو مسبقا? <a href="sign-in.html"> سجل </a></p>
+                                    <p>عضو مسبقا? <a href="{{url('sign-in')}}"> سجل </a></p>
                                 </div>
                             </form>
                         </div>

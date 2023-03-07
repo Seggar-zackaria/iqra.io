@@ -51,9 +51,9 @@
                                         <a href="#">نسيت كلمة السر?</a>
                                     </div>
                                 </div>
-                                <button class="e-btn  w-100"></button>
+                                <button class="e-btn  w-100">تسجيل الدخول</button>
                                 <div class="sign__new text-center mt-20">
-                                    <p>عضو جديد? <a href={{asset('sign-up')}}>تسجيل الدخول</a></p>
+                                    <p>عضو جديد? <a href={{asset('sign-up')}}>سجيل الدخول</a></p>
                                 </div>
                             </form>
                         </div>

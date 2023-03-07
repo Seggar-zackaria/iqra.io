@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- page title area start -->
-    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/page-title-2.jpg">
+    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/pages-title.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
@@ -33,7 +33,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
                                         <a href={{url('/in-article')}}>
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                  alt="">
                                         </a>
                                     </div>
@@ -73,7 +73,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
                                         <a href={{url('/in-article')}}>
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                                                  class="img-fluid border-0" alt="">
                                         </a>
                                     </div>
@@ -114,7 +114,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix" >
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
                                         <a href="{{url('/in-article')}}">
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg" alt="">
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}" alt="">
                                         </a>
                                     </div>
                                     <div class="blog__content">
@@ -153,7 +153,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
                                         <a href={{url('/in-article')}}>
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                  alt="">
                                         </a>
                                     </div>
@@ -193,7 +193,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix">
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
                                         <a href="{{url('/in-article')}}">
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                  alt="">
                                         </a>
                                     </div>
@@ -233,7 +233,7 @@
                                 <div class="blog__item white-bg mb-30 transition-3 fix" >
                                     <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden">
                                         <a href={{url('/in-article')}}>
-                                            <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg" alt="">
+                                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}" alt="">
                                         </a>
                                     </div>
                                     <div class="blog__content">
@@ -299,7 +299,7 @@
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20" style="max-height: 74px; overflow: hidden">
                                             <a href={{url('/in-article')}} >
-                                                <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                      alt=""></a>
                                         </div>
                                         <div class="rc__content">
@@ -311,7 +311,7 @@
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href={{url('/in-article')}}> <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" alt=""></a>
+                                            <a href={{url('/in-article')}}> <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-52.jpg')}}" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta" >
@@ -322,7 +322,7 @@
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="{{url('/in-article')}}"><img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" alt=""></a>
+                                            <a href="{{url('/in-article')}}"><img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
@@ -368,7 +368,7 @@
                         </div>
                         <div class="sidebar__widget mb-55 d-none d-lg-block">
                             <div class="sidebar__banner w-img">
-                                <img src="assets/img/svg/Education-rafiki.svg" alt="">
+                                <img src="{{asset('assets/img/svg/Education-rafiki.svg')}}" alt="">
                             </div>
                         </div>
                     </div>

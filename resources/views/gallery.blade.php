@@ -6,7 +6,7 @@
 
 
     <!-- page title area start -->
-    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/page-title-2.jpg">
+    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/pages-title.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
@@ -47,7 +47,7 @@
             <div class="row g-4">
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
                     <div class="blog__thumb w-img fix">
-                        <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                        <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                              alt="Photo D'evenement"
                              class="img-fluid rounded-3">
                     </div>
@@ -55,72 +55,79 @@
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="assets/img/school/photo_2023-02-24_19-44-06.jpg"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+                    <video src="{{asset('assets/video/testimonial-video.mp4')}}"
+                           controls
+                           type="mp4"
+                           class="img-fluid rounded-3 ">
+                    </video>
                 </div>
             </div>   <!-- HERE ENDS PICTURE SECTION -->
         </div>

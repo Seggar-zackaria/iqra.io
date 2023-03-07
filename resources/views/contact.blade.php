@@ -4,7 +4,7 @@
     <main>
 
         <!-- page title area start -->
-        <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/contact/contact-img.jpeg">
+        <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/pages-title.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
@@ -12,7 +12,7 @@
                             <h3 class="page__title mb-3">تواصلوا معنا</h3>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                                    <li class="breadcrumb-item"><a href="{{url('/')}}">الرئيسية</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">تواصلوا معنا</li>
                                 </ol>
                             </nav>
@@ -30,7 +30,7 @@
                     <div class="col-xxl-7 col-xl-7 col-lg-6">
                         <div class="contact__wrapper">
                             <div class="section__title-wrapper mb-40">
-                                <h2 class="section__title">تواصلوا<span class="yellow-bg yellow-bg-big"> معنا<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
+                                <h2 class="section__title">تواصلوا<span class="yellow-bg yellow-bg-big"> معنا<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span></h2>
                                 <p>نرد على اسئلتكم و إقترحاتكم نحن هنا من أجلكم.</p>
                             </div>
                             <div class="contact__form">
@@ -74,10 +74,9 @@
                     </div>
                     <div class="col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-5 offset-lg-1">
                         <div class="contact__info white-bg p-relative z-index-1">
-                            <div class="contact__shape">
-                                <img class="contact-shape-1" src="assets/img/contact/contact-shape-1.png" alt="">
-                                <img class="contact-shape-2" src="assets/img/contact/contact-shape-2.png" alt="">
-                                <img class="contact-shape-3" src="assets/img/contact/contact-shape-3.png" alt="">
+                            <div class="contact__shape d-none d-lg-block ">
+                                <img class="contact-shape-1" src="{{asset('assets/img/contact/contact-shape-1.png')}}"  alt="">
+                                <img class="contact-shape-2" src="{{asset('assets/img/contact/contact-shape-2.png')}}" alt="">
                             </div>
                             <div class="contact__info-inner white-bg">
                                 <ul>
@@ -144,9 +143,9 @@
 
         <!-- contact info area start -->
         <section class="contact__area grey-bg-2 pt-120 pb-90 p-relative fix">
-            <div class="contact__shape">
-                <img class="contact-shape-5" src="assets/img/contact/contact-shape-5.png" alt="">
-                <img class="contact-shape-4" src="assets/img/contact/contact-shape-4.png" alt="">
+            <div class="contact__shape d-sm-none">
+                <img class="contact-shape-5" src="{{asset('assets/img/contact/contact-shape-5.png')}}" alt="">
+                <img class="contact-shape-4" src="{{asset('assets/img/contact/contact-shape-4.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -163,7 +162,7 @@
                             <div class="contact__content">
                                 <h3 class="contact__title">مفاهيم حول المدرسة</h3>
                                 <p>يرجى من كل طالب او اولياء الطلاب بقراة دفتر الشروط لتجنب الغضب عند الحاجة</p>
-                                <a href="contact.html" class="e-btn e-btn-border">اقرا دفتر الشروط</a>
+                                <a href="{{url('')}}" class="e-btn e-btn-border">اقرا دفتر الشروط</a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +181,7 @@
                             <div class="contact__content">
                                 <h3 class="contact__title">مساعدة </h3>
                                 <p>نجيب على اي استفسار او تسائلات او شكاوي  عبر البريد الالكتروني</p>
-                                <a href="contact.html" class="e-btn e-btn-border">ارسال </a>
+                                <a href="{{url('contact')}}" class="e-btn e-btn-border">ارسال </a>
                             </div>
                         </div>
                     </div>

@@ -4,9 +4,9 @@
     <!-- hero area start -->
     <section class="hero__area hero__height d-flex align-items-center grey-bg-2 p-relative">
         <div class="hero__shape">
-            <img class="hero-1-circle" src="assets/img/shape/hero/hero-1-circle.png" alt="">
-            <img class="hero-1-circle-2" src="assets/img/shape/hero/hero-1-circle-2.png" alt="">
-            <img class="hero-1-dot-2" src="assets/img/shape/hero/hero-1-dot-2.png" alt="">
+            <img class="hero-1-circle" src="{{asset('assets/img/shape/hero/hero-1-circle.png')}}" alt="">
+            <img class="hero-1-circle-2" src="{{asset('assets/img/shape/hero/hero-1-circle-2.png')}}" alt="">
+            <img class="hero-1-dot-2" src="{{asset('assets/img/shape/hero/hero-1-dot-2.png')}}" alt="">
         </div>
         <div class="container">
             <div class="hero__content-wrapper mt-90">
@@ -15,18 +15,17 @@
                         <div class="hero__content p-relative z-index-1">
                             <h3 class="hero__title mb-3">
                                 <span></span>
-                                <span class="yellow-shape">مدرسة <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"> </span>
+                                <span class="yellow-shape">مدرسة <img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt="yellow-shape"> </span>
                                  <span class="text-primary">إقرأ</span> جنيف</h3>
-                            <p class="lh-sm">مدرسة جنيف العربية مدرسة متميزة في حماية الهوية الإسلامية لأبناء الجالية، وجعلهم نافعـين لذاتهم ومجتمعهم، بما يجعلها نموذجا للمدارس العربية في اوروبا.</p>
-                            <a href="course-grid.html" class="e-btn">من نحن</a>
+                            <p class="lh-sm lh-lg">مدرسة جنيف العربية مدرسة متميزة في حماية الهوية الإسلامية لأبناء الجالية، وجعلهم نافعـين لذاتهم ومجتمعهم، بما يجعلها نموذجا للمدارس العربية في اوروبا.</p>
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div class="hero__thumb d-flex p-relative">
                             <div class="hero__thumb-shape">
-                                <img class="hero-1-dot" src="assets/img/shape/hero/hero-1-dot.png" alt="">
-                                <img class="hero-1-circle-3" src="assets/img/shape/hero/hero-1-circle-3.png" alt="">
-                                <img class="hero-1-circle-4" src="assets/img/shape/hero/hero-1-circle-4.png" alt="">
+                                <img class="hero-1-dot" src="{{asset('assets/img/shape/hero/hero-1-dot.png')}}" alt="">
+                                <img class="hero-1-circle-3" src="{{asset('assets/img/shape/hero/hero-1-circle-3.png')}}" alt="">
+                                <img class="hero-1-circle-4" src="{{asset('assets/img/shape/hero/hero-1-circle-4.png')}}" alt="">
                             </div>
                             <div class="hero__thumb-big mr-30">
                                 <img src="{{asset('assets/img/home/primary-img.jpg')}}" alt="" width="400" height="460" style="object-fit: cover ">
@@ -55,12 +54,12 @@
             <div class="row align-items-end">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
                     <div class="section__title-wrapper mb-45">
-                        <h2 class="section__title">ما يجب ان  <br> <span class="yellow-bg"> تعرفه <img src="assets/img/shape/yellow-bg-2.png" alt="">  </span>عن المدرسة
+                        <h2 class="section__title">ما يجب ان  <br> <span class="yellow-bg"> تعرفه <img src="{{asset('assets/img/shape/yellow-bg-2.png')}}" alt="">  </span>عن المدرسة
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row align-items-start" style="min-height: 418px">
                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-6">
                     <div class="category__item mb-30 transition-3 d-flex">
                         <div class="category__icon mr-30" >
@@ -73,7 +72,7 @@
                             </svg>
                         </div>
                         <div class="category__content">
-                            <h4 class="category__title mb-3"><a href="course-details.html" >من نحن</a></h4>
+                            <h4 class="category__title mb-3">من نحن</h4>
                             <p>      مدرسة جنيف العربية، هي مدرسة بسويسرا تابعة للمؤسسة الثقافية الإسلامية بجنيف، انشئت سنة 1978 ومنذ ذلك تعمل بالتعاون مع جميع عناصر العملية .</p>
                         </div>
                     </div>
@@ -96,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-12  col-md-12 col-sm-6">
-                    <div class="category__item mb-30 transition-3 d-flex">
+                    <div class="category__item mb-30 transition-3 d-flex cut-text">
                         <div class="category__icon mr-30 align-items-lg-start">
                             <svg viewBox="0 0 512 512">
                                 <g>
@@ -105,16 +104,15 @@
                                 </g>
                             </svg>
                         </div>
-                        <div class="category__content overflow-hidden">
+                        <div class="category__content overflow-hidden align-items-lg-center">
                             <h4 class="category__title mb-3">رسالتنا</h4>
-                            <p  class="cut-text text-truncate ">مدرسة بفريق متكامل ومهني في تربية وتكوين أبناء الجالية لإخراج مواطن مسلم صالح ونافع لنفسه واسرته ومجتمعه، بترقية القيم والاخلاق وتعليم اللغة العربية، وتعزيز مكانة العلم والتعلّم، وتطوير أنفسهم طوال حياتهم، من خلال مناهج ووسائل تربوية حديثة، و مناشط متنوعة.</p>
+                            <p>مدرسة بفريق متكامل ومهني في تربية وتكوين أبناء الجالية لإخراج مواطن مسلم صالح ونافع لنفسه واسرته ومجتمعه، بترقية القيم والاخلاق وتعليم اللغة العربية، وتعزيز مكانة العلم والتعلّم، وتطوير أنفسهم طوال حياتهم، من خلال مناهج ووسائل تربوية حديثة، و مناشط متنوعة.</p>
                         </div>
                     </div>
                 </div>
                 <div class="hero__shape">
-                    <img class="hero-1-circle-1" src="assets/img/shape/hero/hero-1-circle.png" alt="">
-                    <img class="hero-1-circle-3" src="assets/img/shape/hero/hero-1-circle-2.png" alt="">
-                    <img class="hero-1-dot-3" src="assets/img/shape/hero/hero-1-dot-2.png" alt="">
+                    <img class="hero-1-circle-3" src="{{asset('assets/img/shape/hero/hero-1-circle-2.png')}}" alt="">
+                    <img class="hero-1-dot-3" src="{{asset('assets/img/shape/hero/hero-1-dot-2.png')}}" alt="">
                 </div>
 
 
@@ -137,7 +135,7 @@
                             </h3>
                         </div>
                         <div class="banner__thumb d-none d-sm-block d-md-none d-lg-block">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg"
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-52.jpg')}}"
                                      style="max-width: 330px; max-height: 215px"
                                      alt="">
                         </div>
@@ -152,7 +150,7 @@
                             </h3>
                         </div>
                         <div class="banner__thumb banner__thumb-2 d-none d-sm-block d-md-none d-lg-block">
-                            <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                            <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                  style="max-width: 318px; max-height: 276px"
                                  alt="">
                         </div>
@@ -169,7 +167,7 @@
             <div class="row align-items-end">
                 <div class="col-xxl-5 col-xl-6 col-lg-6">
                     <div class="section__title-wrapper mb-60">
-                        <h2 class="section__title"> أخر<span class="yellow-bg yellow-bg-big"> المنشورات<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
+                        <h2 class="section__title"> أخر<span class="yellow-bg yellow-bg-big"> المنشورات<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span></h2>
                     </div>
                 </div>
             </div>
@@ -178,7 +176,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}" >
-                                <img alt="" class="object-fit-cover" style=" background-position: center;"  src="assets/img/school/photo_2023-02-24_19-44-06.jpg">
+                                <img alt="" class="object-fit-cover" style=" background-position: center;"  src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}">
                             </a>
                             <div class="course__tag">
                                 <a href="#">رحلات مدرسية</a>
@@ -209,7 +207,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}" class="img-fluid" alt="">
                             </a>
                             <div class="course__tag">
                                 <a href="#" class="sky-blue">نشاطات</a>
@@ -240,7 +238,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}" alt="">
                             </a>
                             <div class="course__tag">
                                 <a href="#" class="green">مقالات</a>
@@ -271,7 +269,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-52.jpg" class="img-fluid" alt="">
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-52.jpg')}}" class="img-fluid" alt="">
                             </a>
                             <div class="course__tag">
                                 <a href="#" class="blue">مقالات</a>
@@ -283,7 +281,7 @@
                                     <span><i class="fa-duotone fa-timer me-2"></i>منذ 3 ساعات</span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="course-details.html"> تخرج الطلاب من مدرسة غقرا حنيف</a></h3>
+                            <h3 class="course__title"><a href="{{url('in-article')}}"> تخرج الطلاب من مدرسة غقرا حنيف</a></h3>
 
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
@@ -303,7 +301,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-21.jpg" alt="">
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-21.jpg')}}" alt="">
                             </a>
                             <div class="course__tag">
                                 <a href="#" class="orange">مناسبات</a>
@@ -336,7 +334,7 @@
                     <div class="course__item white-bg mb-30 fix">
                         <div class="course__thumb w-img p-relative fix" style="max-height:300px">
                             <a href="{{url('/in-article')}}">
-                                <img src="assets/img/school/photo_2023-02-24_19-44-16.jpg" alt="">
+                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}" alt="">
                             </a>
                             <div class="course__tag">
                                 <a href="#" class="pink">حفالات</a>
@@ -374,13 +372,13 @@
     <!-- events area start -->
     <section class="events__area pt-115 pb-120 p-relative">
         <div class="events__shape">
-            <img class="events-1-shape" src="assets/img/events/events-shape.png" alt="">
+            <img class="events-1-shape" src="{{asset('assets/img/events/events-shape.png')}}" alt="">
         </div>
         <div class="container" id="card-container">
             <div class="row">
                 <div class="col-xxl-4 offset-xxl-4 ">
                     <div class="section__title-wrapper mb-60 text-center">
-                        <h2 class="section__title">خصائص <span class="yellow-bg yellow-bg-big">مدرستنا<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
+                        <h2 class="section__title">خصائص <span class="yellow-bg yellow-bg-big">مدرستنا<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span></h2>
                     </div>
                 </div>
             </div>
@@ -523,13 +521,13 @@
         <div class="events__shape">
             <img class="events-1-shape"
                  width="550px"
-                 src="assets/img/events/events-shape.png"
+                 src="{{asset('assets/img/events/events-shape.png')}}"
                  alt="">
         </div>
         <div class="container">
                 <div class="col-xxl-4 offset-xxl-4">
                     <div class="section__title-wrapper mb-60 text-center">
-                        <h2 class="section__title">  أراء<span class="yellow-bg yellow-bg-big"> الناس<img src="assets/img/shape/yellow-bg.png" alt=""></span></h2>
+                        <h2 class="section__title">  أراء<span class="yellow-bg yellow-bg-big"> الناس<img src="{{asset('assets/img/shape/yellow-bg.png')}}" alt=""></span></h2>
                         <p>اراء الناس حول المدرسة.</p>
                     </div>
                 </div>

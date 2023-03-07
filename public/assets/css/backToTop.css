@@ -24,8 +24,8 @@
 
   .progress-wrap::after {
     position: absolute;
-    content: '\f176';
-    font-family: "FontAwesome ";
+    content: '\f062';
+    font-family: "Font Awesome 6 Duotone Pro";
     text-align: center;
     line-height: 46px;
     font-size: 20px;
@@ -39,12 +39,6 @@
     z-index: 1;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
-  }
-
-
-
-  .progress-wrap svg path {
-    fill: none;
   }
 
   .progress-wrap svg.progress-circle path {

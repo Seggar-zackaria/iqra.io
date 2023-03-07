@@ -4,12 +4,12 @@
 
 
     <!-- page title area start -->
-    <section class="page__title-area page__title-height-2 page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/page-title-3.jpg">
+    <section class="page__title-area page__title-height-2 page__title-overlay d-flex align-items-center">
         <div class="page__title-shape">
-            <img class="page-title-shape-1" src="assets/img/page-title/page-title-shape-1.png" alt="">
-            <img class="page-title-shape-2" src="assets/img/page-title/page-title-shape-2.png" alt="">
-            <img class="page-title-shape-3" src="assets/img/page-title/page-title-shape-3.png" alt="">
-            <img class="page-title-shape-4" src="assets/img/page-title/page-title-shape-4.png" alt="">
+            <img class="page-title-shape-1" src="{{asset('assets/img/page-title/page-title-shape-1.png')}}" alt="">
+            <img class="page-title-shape-2" src="{{asset('assets/img/page-title/page-title-shape-2.png')}}" alt="">
+            <img class="page-title-shape-3" src="{{asset('assets/img/page-title/page-title-shape-3.png')}}" alt="">
+            <img class="page-title-shape-4" src="{{asset('assets/img/page-title/page-title-shape-4.png')}}" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -41,18 +41,8 @@
                         <div class="blog__text mb-40">
                             <p>تعد الرحلات المدرسية طريقة من طرق التعليم التي تعتمد على التشويق والتجربة والبحث والاستكشاف وتمتلك في طياتها نوعاً من أنواع الترفيه، فهي تأخذ الطلاب من أجواء المدرسة الروتينية والمواعيد والانتظام والمذاكرة والواجبات إلى أجواء المرح واللعب والانتعاش. والرحلات المدرسية لا تقتصر على الترفيه فقط في الترفيه هو طابع لها لكن لا يعني أنه ليس هناك أهداف تحقق و دروس نتعلمها من الرحلات المدرسية، الرحلات إما رحلات ترفيهية كالتي تكون إلى البحر أو إلى الحدائق ويكون الغرض منها هو التسلية والمرح، وإما الرحلات التعليمية الثقافية وتكون بغرض الاستكشاف والتعلم بطريقة المشاهدة والنزول للواقع. مثل الرحلات التي تكون إلى المناطق القديمة الأثرية وقصور الملوك قديماً والمكتبات التي تحتوي على المخطوطات والكتب القديمة، وهناك الرحلات الدينية التي تكون لأداء عبادة معينة بشكل جماعي بعد تعلمها بشكل نظري في المدرسة مثل الرحلات التي تكون للمساجد و ودور الأيتام والمسنين</p>
                         </div>
-                        <div class="blog__quote grey-bg mb-45 p-relative fix">
-                            <img class="quote" src="assets/img/blog/quote-1.png" alt="">
-                            <blockquote>
-                                <p>After I started learning design with Quillow, I realized that I had Improved to very advanced levels.</p>
-                                <h4>Chris Collins</h4>
-                            </blockquote>
-                        </div>
                         <div class="blog__text mb-30">
                             <p>Horse play it's all gone to pot codswallop easy peasy mush knees up down the pub jolly good nice one tosser it's your round lurgy, I vagabond barmy off his nut only a quid so I said is gosh Charles blow off, pardon me chip shop Richard spiffing skive off bleeding get stuffed mate porkies amongst the full monty. Daft burke you</p>
-                        </div>
-                        <div class="blog__img w-img mb-45" >
-                            <img src="assets/img/blog/big/blog-big-1.jpg" alt="">
                         </div>
                         <div class="blog__text mb-40">
                             <p>موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار سوف تشاركونا به اليوم، حيث أن المدرسة هي مرجع الطالب في مسيرته العلمية وبيته التعليمي، ولكن دور المدرسة والمعلمين لا يقتصر على ذلك فلها دور في تنمية مهارات الطالب وتقديم الدعم المناسب له في كل مراحل التعليم المختلفة، ولذلك كان مما تسعى إليه المدرسة هو إقامة الرحلات المدرسية على فترات متفاوتة لأهميتها في تربية الطالب وتعليمه بطريقة شيقة وممتعة وغرس المفاهيم التي يحتاجها في مسيرته العلمية والعملية، وكذلك توفير وسيلة الترفيه المناسبة والتي تزرع فيه حب التعلم وكيفية الجمع بين المتعة والعلم وزيادة روح الألفة والمودة بينه وبين معلمية وزملائه لذا كانت الرحلات المدرسية من الأمور التي لا غنى عنها، موضوع تعبير عن الرحلة المدرسية بالعناصر والافكار بالعناصر والمقدمة والحاتمة للصف الرابع والخامس والسادس الابتدائي، موضوع عن الرحلة المدرسية بالعناصر والافكار للصف الاول و الثاني و الثالث الاعدادي و الثانوي ولجميع الصفوف التعليمية</p>
@@ -75,19 +65,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="blog__author-3 d-sm-flex grey-bg mb-90">
-                            <div class="blog__author-thumb-3 mr-20">
-                                <img src="assets/img/blog/author/blog-author-1.jpg" alt="">
-                            </div>
-                            <div class="blog__author-content">
-                                <h4>Justin Case</h4>
-                                <span>Author</span>
-                                <p>So I said blower wellies a blinding shot jolly good argy-bargy he nicked it, in my flat don't get shirty with me tosser.</p>
-                            </div>
-                        </div>
                         <div class="blog__recent mb-65">
                             <div class="section__title-wrapper mb-40">
-                                <h2 class="section__title">مقالات ذات <span class="yellow-bg-sm">صلة <img src="assets/img/shape/yellow-bg-4.png" alt="">  </span></h2>
+                                <h2 class="section__title">مقالات ذات <span class="yellow-bg-sm">صلة <img src="{{asset('assets/img/shape/yellow-bg-4.png')}}" alt="">  </span></h2>
                             </div>
                             <div class="row">
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -95,7 +75,7 @@
                                         <div class="blog__item white-bg mb-30 transition-3 fix">
                                             <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
                                                 <a href={{url('/in-article')}}>
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                          alt="">
                                                 </a>
                                             </div>
@@ -137,7 +117,7 @@
                                         <div class="blog__item white-bg mb-30 transition-3 fix">
                                             <div class="blog__thumb w-img fix" style="max-height: 260px; overflow: hidden;">
                                                 <a href={{url('/in-article')}}>
-                                                    <img src="assets/img/school/photo_2023-02-24_19-44-14.jpg"
+                                                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-14.jpg')}}"
                                                          alt="">
                                                 </a>
                                             </div>
@@ -182,7 +162,7 @@
                                     <div class="comments-box grey-bg">
                                         <div class="comments-info d-flex">
                                             <div class="comments-avatar mr-20">
-                                                <img src="assets/img/blog/comments/comment-1.jpg" alt="">
+                                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" alt="">
                                             </div>
                                             <div class="avatar-name">
                                                 <h5>سمية بوعزة</h5>
@@ -201,7 +181,7 @@
                                     <div class="comments-box grey-bg">
                                         <div class="comments-info d-flex">
                                             <div class="comments-avatar mr-20">
-                                                <img src="assets/img/blog/comments/comment-1.jpg" alt="">
+                                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" alt="">
                                             </div>
                                             <div class="avatar-name">
                                                 <h5>اسامة قاسي</h5>
@@ -220,7 +200,7 @@
                                             <div class="comments-box grey-bg">
                                                 <div class="comments-info d-flex">
                                                     <div class="comments-avatar mr-20">
-                                                        <img src="assets/img/blog/comments/comment-3.jpg" alt="">
+                                                        <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" alt="">
                                                     </div>
                                                     <div class="avatar-name">
                                                         <h5>ابو انس</h5>
@@ -255,9 +235,7 @@
                                     </div>
                                     <div class="col-xxl-12">
                                         <div class="blog__comment-input">
-
                                                 <textarea placeholder="اترك تعليقك ..."></textarea>
-
                                         </div>
                                     </div>
                                     <div class="col-xxl-12">
@@ -286,35 +264,37 @@
                                 <div class="rc__post-wrapper">
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-1.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}">
+                                                <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" alt="">
+                                            </a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
                                                 <span>15 اكتوبر 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">The Importance  Intrinsic Motivation.</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('in-article')}}">The Importance  Intrinsic Motivation.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-2.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}"><img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
                                                 <span>26 مارس 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">A Better Alternative To Grading Student.</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('in-article')}}">A Better Alternative To Grading Student.</a></h6>
                                         </div>
                                     </div>
                                     <div class="rc__post d-flex align-items-center">
                                         <div class="rc__thumb mr-20">
-                                            <a href="{{url('in-article')}}"><img src="assets/img/blog/sm/blog-sm-3.jpg" alt=""></a>
+                                            <a href="{{url('in-article')}}"><img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}" alt=""></a>
                                         </div>
                                         <div class="rc__content">
                                             <div class="rc__meta">
                                                 <span>15 اكتوبر 2021</span>
                                             </div>
-                                            <h6 class="rc__title"><a href="blog-details.html">Strategic Social Media & Evolution of Visual</a></h6>
+                                            <h6 class="rc__title"><a href="{{url('in-article')}}">Strategic Social Media & Evolution of Visual</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -327,11 +307,10 @@
                             <div class="sidebar__widget-content">
                                 <div class="sidebar__category">
                                     <ul>
-                                        <li><a href="blog.html">Category</a></li>
-                                        <li><a href="blog.html">Video & Tips  (4)</a></li>
-                                        <li><a href="blog.html">Education  (8)</a></li>
-                                        <li><a href="blog.html">Business  (5)</a></li>
-                                        <li><a href="blog.html">UX Design  (3)</a></li>
+                                        <li><a href="{{url('article')}}">مقالات</a></li>
+                                        <li><a href="{{url('article')}}">رحالات (4)</a></li>
+                                        <li><a href="{{url('article')}}">نشاطات (8)</a></li>
+                                        <li><a href="{{url('article')}}">مناسابات (5)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -354,7 +333,7 @@
                         </div>
                         <div class="sidebar__widget mb-55 d-none d-lg-block">
                             <div class="sidebar__banner w-img">
-                                <img src="assets/img/svg/Education-bro.svg" alt="">
+                                <img src="{{asset('assets/img/svg/Education-bro.svg')}}" alt="">
                             </div>
                         </div>
                     </div>
