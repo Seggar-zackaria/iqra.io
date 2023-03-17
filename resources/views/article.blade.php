@@ -215,7 +215,7 @@
                                                             <i class="fa-duotone fa-share-from-square"></i>
                                                       </button>
                                                  </span>
-                                                <div class="collapse" id="collapseExample4">
+                                                <div  id="collapseExample4">
                                                     <div class="card card-body">
                                                         <a href=""><i class="fa-brands fa-facebook-f text-primary"></i></a>
                                                         <a href=""><i class="fa-brands fa-twitter" style="color: #0fa0dd"></i></a>
@@ -247,7 +247,7 @@
                                                 <i class="fa-duotone fa-clock "></i>
                                                 <span>افريل 02, 2022</span>
                                             </div>
-                                            <div class="blog__author d-flex align-items-center">
+                                         <div class="blog__author d-flex align-items-center">
                                                 <span>
                                                       <button aria-controls="collapseExample5" aria-expanded="false" class="bg-transparent border-0"
                                                               data-bs-target="#collapseExample5" data-bs-toggle="collapse" type="button">

@@ -2370,6 +2370,54 @@ p {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+/*----------------------------------------*/
+/*  04. carousel CSS START
+/*----------------------------------------*/
+
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-weight: 300;
+}
+.tags {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: #ffffff !important;
+    background: #cb823c;
+    border-radius: 3px;
+    padding: .3em;
+    font-weight: normal;
+    font-size: .78em;
+}
+
+.holder {
+    max-width: 20rem !important;
+    max-height: 15.4rem !important;
+    overflow: hidden;
+}
+
+.img-holder{
+    object-fit: cover;
+    object-position: center center;
+}
+
+/*.home-demo > img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}*/
+
+
+
+
 /*----------------------------------------*/
 /*  04. CATEGORY CSS START
 /*----------------------------------------*/

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
           rel="stylesheet">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/webicon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/webicon.svg')}}">
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/preloader.css">
     <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/elegantFont.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="{{asset('rtl.css')}}">
+    <link rel="stylesheet" href="rtl.css">
 </head>
 <body>
 <!--[if lte IE 9]>

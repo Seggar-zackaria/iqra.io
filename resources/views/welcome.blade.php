@@ -46,15 +46,70 @@
     </section>
     <!-- hero area end -->
 
+    <!-- owl carousel start-->
+<section class="container  mt-40 mb-40">
+    <div class="home-demo owl-rtl">
+        <h2 class="section__title text-dark fw-bold"> صور
+            <span class="yellow-bg">
+                <img src="{{asset('assets/img/shape/yellow-bg-2.png')}}" alt=""> المدرسة </span>
+        </h2>
+        <div class="owl-carousel owl-theme overflow-hidden">
+            <div class="item ">
+                <div class="holder border-0 rounded">
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}" class="img-holder" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="tags card-title">احتفال المدرسة</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class=" holder border-0 rounded">
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}" class="img-holder" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="tags card-title">احتفال المدرسة</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="holder border-0 rounded">
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-10.jpg')}}" class="img-holder" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="tags card-title">احتفال المدرسة</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="holder border-0 rounded">
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-52.jpg')}}" class="img-holder" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="tags card-title">احتفال المدرسة</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="holder border-0 rounded">
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-23.jpg')}}" class="img-holder" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="tags card-title">احتفال المدرسة</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- owl carousel end -->
+
+
+
     <!-- category area start -->
     <section class="category__area pt-120 pb-70">
 
 
         <div class="container">
-            <div class="row align-items-end">
+            <div class="row justify-content-center text-center">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
-                    <div class="section__title-wrapper mb-45">
-                        <h2 class="section__title">ما يجب ان  <br> <span class="yellow-bg"> تعرفه <img src="{{asset('assets/img/shape/yellow-bg-2.png')}}" alt="">  </span>عن المدرسة
+                    <div class="section__title-wrapper mb-45 mx-auto">
+                        <h2 class="section__title ">ما يجب ان  <br> <span class="yellow-bg"> تعرفه <img src="{{asset('assets/img/shape/yellow-bg-2.png')}}" alt="">  </span>عن المدرسة
                         </h2>
                     </div>
                 </div>
@@ -183,17 +238,14 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta">
                                 <div class="course__lesson">
                                     <span><i class="fa-duotone fa-timer me-2"></i> منذ أسبوع</span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="{{url('/in-article')}}">رحالات مدرسية ممتع مع الأستاذة بن فلان</a></h3>
+                            <h3 class="course__title text-truncate"><a href="{{url('/in-article')}}">رحالات مدرسية ممتع مع الأستاذة بن فلان</a></h3>
                         </div>
-                        <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status">
-                                <span>المزيد</span>
-                            </div>
+                        <div class="course__more  text-end">
                             <div class="course__btn">
                                 <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
@@ -214,17 +266,14 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta ">
                                 <div class="course__lesson">
                                     <span><i class="fa-duotone fa-timer me-2"></i> منذ ساعة</span>
                                 </div>
                             </div>
                             <h3 class="course__title"><a href="{{url('/in-article')}}">نشاطات عن المدرسة</a></h3>
                         </div>
-                        <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status d-flex align-items-center">
-                                <span class="sky-blue">المزيد</span>
-                            </div>
+                        <div class="course__more text-end">
                             <div class="course__btn">
                                 <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
@@ -245,17 +294,14 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta ">
                                 <div class="course__lesson">
                                     <span><i class="fa-duotone fa-timer me-2"></i> منذ ساعة</span>
                                 </div>
                             </div>
                             <h3 class="course__title"><a href="{{url('/in-article')}}">مقال عن مماراسات المدرسة</a></h3>
                         </div>
-                        <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status d-flex align-items-center">
-                                <span class="green">المزيد</span>
-                            </div>
+                        <div class="course__more text-end">
                             <div class="course__btn">
                                 <a href="{{url('/in-article')}}" class="link-btn">
                                      تصفح المزيد
@@ -276,7 +322,7 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta">
                                 <div class="course__lesson">
                                     <span><i class="fa-duotone fa-timer me-2"></i>منذ 3 ساعات</span>
                                 </div>
@@ -285,9 +331,6 @@
 
                         </div>
                         <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status d-flex align-items-center">
-                                <span class="blue">المزيد</span>
-                            </div>
                             <div class="course__btn">
                                 <a href="{{url('/in-article')}}" class="link-btn">
                                     تصفح المزيد
@@ -308,19 +351,16 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta">
                                 <div class="course__lesson">
                                     <span>
                                         <span><i class="fa-duotone fa-timer me-2"></i>منذ 2ساعات</span>
                                     </span>
                                 </div>
                             </div>
-                            <h3 class="course__title"><a href="{{url('/in-article')}}">مناسبت عيد الأضحى قامت المدرسة باحتفال</a></h3>
+                            <h3 class="course__title text-truncate"><a href="{{url('/in-article')}}">مناسبت عيد الأضحى قامت المدرسة باحتفال</a></h3>
                         </div>
-                        <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status d-flex align-items-center">
-                                <span class="orange">المزيد</span>
-                            </div>
+                        <div class="course__more text-end">
                             <div class="course__btn">
                                 <a href="{{url('/in-article')}}l" class="link-btn">
                                     تصفح المزيد
@@ -341,22 +381,18 @@
                             </div>
                         </div>
                         <div class="course__content">
-                            <div class="course__meta d-flex align-items-center justify-content-between">
+                            <div class="course__meta">
                                 <div class="course__lesson">
                                     <span>
                                         <span><i class="fa-duotone fa-timer me-2"></i>منذ 1 ساعة</span>
                                     </span>
                                 </div>
-
                             </div>
                             <h3 class="course__title"><a href="{{url('/in-article')}}">احتفال بيوم التخرج الطلاب</a></h3>
                         </div>
-                        <div class="course__more d-flex justify-content-between align-items-center">
-                            <div class="course__status d-flex align-items-center">
-                                <span class="pink">المزيد</span>
-                            </div>
-                            <div class="course__btn">
-                                <a href="{{url('/in-article')}}" class="link-btn">
+                        <div class="course__more">
+                            <div class="course__btn text-end">
+                                <a href="{{url('/in-article')}}" class="link-btn ">
                                     تصفح المزيد
                                     <i class="fa-duotone fa-arrow-left"></i>
                                 </a>
@@ -383,7 +419,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center white-bg overflow-hidden">
                             <div class="events__content ">
@@ -397,7 +433,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -410,7 +446,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -423,7 +459,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -434,7 +470,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -445,7 +481,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -456,7 +492,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -467,7 +503,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -478,7 +514,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -489,7 +525,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">
@@ -500,7 +536,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                <div class=" col-xxl-10 offset-lg-1 col-xl-5 offset-xl-1 col-lg-10 offset-lg-1">
                     <div class="events__item mb-10 hover__active">
                         <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
                             <div class="events__content">

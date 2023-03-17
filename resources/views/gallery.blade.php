@@ -104,7 +104,7 @@
 
 
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
+                    <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-16.jpg')}}"
                          alt="Photo D'evenement"
                          class="img-fluid rounded-3 ">
                 </div>

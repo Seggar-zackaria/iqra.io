@@ -337,32 +337,62 @@
 })(jQuery);
 
 
-
 $('.owl-carousel').owlCarousel({
-    loop:false,
-    margin:10,
-     nav:false,
+    rtl:true,
+    margin: 10,
+    autoplay: true,
+    autoWidth: true,
+    padding: false,
+    loop: true,
+    autoplayTimeout: 1920,
+    smartSpeed: 1900,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    slideTransition: 'ease',
+    dotsSpeed:1500,
+    slideBy:1,
+    nav:false,
     responsive:{
-        0:{
+        320:{
             items:1
+        },
+        375:{
+            items:2
         },
         425:{
-            items:1
-        },
-        600:{
             items:3
         },
         768:{
-          items:1
-        },
-        1000:{
-            items:1
+          items:3
         },
         1024:{
-          items:1
+          items:4
         },
         1440:{
-          items:1
+          items:4
         },
     }
 })
+
+/*
+$(function() {
+    // Owl Carousel
+    let owl = $(".owl-carousel");
+    owl.owlCarousel({
+        items: 5,
+        rtl:true,
+        margin: 10,
+        autoplay: true,
+        autoWidth: true,
+        loop: true,
+        autoplayTimeout: 1920,
+        smartSpeed: 2500,
+        animateIn: 'linear',
+        animateOut: 'linear',
+        slideTransition: 'ease',
+        dotsSpeed:1500,
+        slideBy:1,
+        dots:false,
+    });
+});
+*/
