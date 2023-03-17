@@ -44,7 +44,7 @@
 
             <!-- HERE START PICTURE SECTION -->
 
-            <div class="row g-4">
+            <div class="row g-3">
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
                     <div class="blog__thumb w-img fix">
                         <img src="{{asset('assets/img/school/photo_2023-02-24_19-44-06.jpg')}}"
